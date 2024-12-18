@@ -90,7 +90,7 @@
 			</div>
 		</section>
 
-		<div class="subscribe-social mt-8">
+		<div class="subscribe-social mt-10">
 			<a href="https://www.facebook.com/" target="_blank" style="cursor: pointer;">
 				<img src="facebook_2504903.png" alt="facebook icon" />
 			</a>
