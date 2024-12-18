@@ -3,15 +3,25 @@
 </script>
 
 <div class="container">
+	<nav class="my-10">
+		<img id="my-guy-bri-img" src="my-guy-bri-banner.jpg" alt="hero kitchen" />
+		<div class="nav-links">
+			<a href="#search-homes">Search</a>
+			<a href="#our-services">Services</a>
+			<a href="#about-me">About Brian</a>
+			<a href="#contact-me">Contact Brian</a>
+		</div>
+	</nav>
 	<section>
 		<div class="hero-image">
 			<img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
 		</div>
 
-		<div class="hero-text text-center">
+		<div id="search-homes" class="hero-text text-center">
 			<h2 class=" text-3xl text-red-500">Let Me Help You</h2>
 			<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
 		</div>
+
 		<div class="hero-btn">
 			<!-- <button href="https://brianaltomari.kw.com/" target="_blank"
 				>Search Now</button
@@ -28,13 +38,13 @@
 		</p>
 	</section>
 
-	<div class="my-hr">
+	<div id="about-me" class="my-hr">
 		<hr class="hr-1" />
 		<h4 class="middle-text">About Brian</h4>
 		<hr class="hr-2" />
 	</div>
 
-	<div class="my-hr">
+	<div id="our-services" class="my-hr">
 		<hr class="hr-1" />
 		<h4 class="middle-text">Our Services</h4>
 		<hr class="hr-2" />
@@ -112,7 +122,7 @@
 				<div class="space-y-12">
 					<div class="border-b border-gray-900/10 pb-12">
 						<h2 class="text-2xl font-semibold text-blue-900">Contact Brian</h2>
-			
+
 						<div class="mt-4 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
 							<div class="sm:col-span-3">
 								<label for="first-name" class="block text-sm/6 font-medium text-gray-900"
@@ -174,8 +184,8 @@
 							name="about"
 							id="about"
 							rows="4"
-							placeholder="Describe yourself here..."
-							class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-red-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+							placeholder="Please write a few sentences about what you're looking for..."
+							class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-blue-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
 						>
 						</textarea>
 					</div>
@@ -190,21 +200,20 @@
 			</form>
 		</div>
 
-		<div class="contact-data">
+		<div id="contact-me" class="contact-data">
 			<h2 class="mb-12 text-2xl font-semibold text-blue-900">Brian Altomari</h2>
 			<h4 id="mobile">Mobile: 904-555-1212</h4>
 			<h4 id="office" class="mb-4">Office: 904-555-1212</h4>
 			<h4 id="bri-email" class="mb-10">
-        <a 
-						class="text-gray-500 border-gray-300  hover:text-orange-500"
-						outline
-						color="dark"
-						href="mailto: brianaltomari@gmail.com?subject=My Guy Bri"
-						target="_blank"
-						rel="noopener noreferrer"
-        >brianaltomari@gmail.com</a>
-        
-      </h4>
+				<a
+					class="text-gray-500 border-gray-300 hover:text-orange-500"
+					outline
+					color="dark"
+					href="mailto: brianaltomari@gmail.com?subject=My Guy Bri"
+					target="_blank"
+					rel="noopener noreferrer">brianaltomari@gmail.com</a
+				>
+			</h4>
 			<h4 id="address-1" class="mb-1 font-semibold text-slate-900">Keller Williams Winter Park</h4>
 			<h4 id="address-2">147 W. Lyman Avenue</h4>
 			<h4 id="address-3">Winter Park, FL 32789</h4>
@@ -213,6 +222,28 @@
 </div>
 
 <style>
+	nav {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: center;
+	}
+
+	#my-guy-bri-img {
+		width: 175px;
+		border-radius: 15px;
+	}
+
+	.nav-links {
+		font-size: 1.35rem;
+		display: flex;
+		gap: 1rem;
+	}
+
+	.nav-links a:hover {
+		color: orangered;
+		cursor: pointer;
+	}
+
 	.container {
 		width: 100%;
 		height: 100vh;
@@ -291,8 +322,8 @@
 	}
 
 	/* .service-image { */
-		/* justify-content: center; */
-		/* background-color: rgb(226, 255, 205); */
+	/* justify-content: center; */
+	/* background-color: rgb(226, 255, 205); */
 	/* } */
 	#service-img,
 	#service-img-2 {
@@ -329,7 +360,7 @@
 	#contact {
 		display: flex;
 		gap: 3rem;
-    margin: 15px;
+		margin: 15px;
 	}
 
 	.contact-form {
