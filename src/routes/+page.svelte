@@ -260,6 +260,7 @@
 
 	#hero-img {
 		width: 750px;
+		border-radius: 8px;
 	}
 
 	button {
@@ -329,6 +330,7 @@
 	#service-img-2 {
 		width: 400px;
 		margin: 0 auto;
+		border-radius: 8px;
 	}
 
 	.service-text {
