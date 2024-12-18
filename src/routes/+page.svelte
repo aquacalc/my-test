@@ -44,6 +44,18 @@
 		<hr class="hr-2" />
 	</div>
 
+	<!-- see: https://www.sitepoint.com/style-html-details-element/ -->
+	<div class="about-brian">
+		<details close style="cursor: pointer;">
+			<summary>More info...</summary>
+			<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque quis est quam
+				perferendis! Nesciunt ipsa fugiat ut consectetur explicabo dolores possimus dolor minima
+				molestiae nulla, consequuntur provident eligendi fugit?
+			</p>
+		</details>
+	</div>
+
 	<div id="our-services" class="my-hr">
 		<hr class="hr-1" />
 		<h4 class="middle-text">Our Services</h4>
@@ -298,6 +310,25 @@
 		border: 1px lightgray solid;
 		margin: 30px;
 		flex: 1 1 0;
+	}
+
+	/* ABOUT */
+
+	summary {
+		list-style-position: outside;
+		margin-left: 30px;
+		padding: 10px 10px 10px 20px;
+		border-radius: 5px;
+		list-style-type: '⬇ ';
+	}
+
+	summary::marker {
+		color: orangered;
+		font-size: 1.2em;
+	}
+
+	details[open] > summary {
+		list-style-type: '⬆ ';
 	}
 
 	/* SERVICES */
