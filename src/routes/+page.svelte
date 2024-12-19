@@ -130,6 +130,12 @@
 			<a href="https://www.instagram.com/brianaltomari_realtor/" target="_blank" style="cursor: pointer;">
 				<img src="instagram_2111463.png" alt="instagram icon" />
 			</a>
+			<a href="https://www.linkedin.com/in/brian-altomari-5a719961/" target="_blank" style="cursor: pointer;">
+				<img src="linkedin_2504923.png" alt="instagram icon" />
+			</a>
+			<a href="https://www.youtube.com/@brianaltomari_realtor" target="_blank" style="cursor: pointer;">
+				<img src="youtube_4096116.png" alt="instagram icon" />
+			</a>
 		</div>
 	</div>
 
@@ -427,7 +433,7 @@
 	.subscribe-social {
 		display: flex;
 		justify-content: center;
-		gap: 1rem;
+		gap: 3rem;
 	}
 	/* .subscribe-social a img {
     flex: 110;
