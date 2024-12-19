@@ -4,7 +4,7 @@
 	let clientLast = $state('');
 </script>
 
-<nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0">
+<nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0 z-50">
 	<a href="/">
 		<img id="my-guy-bri-img" src="my-guy-bri-banner.jpg" alt="hero kitchen" />
 	</a>
