@@ -1,5 +1,7 @@
 <script>
 	let clientEmail = $state('');
+	let clientFirst = $state('');
+	let clientLast = $state('');
 </script>
 
 <nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0">
@@ -267,7 +269,7 @@
 					class="text-gray-500 border-gray-300 hover:text-orange-500"
 					outline
 					color="dark"
-					href="mailto: brianaltomari@kw.com?subject=My Guy Bri"
+					href="mailto: brianaltomari@kw.com?subject=My Guy Bri ({clientFirst} {clientLast}) Inquiry"
 					target="_blank"
 					rel="noopener noreferrer">brianaltomari@kw.com</a
 				>
