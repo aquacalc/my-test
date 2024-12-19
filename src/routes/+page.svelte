@@ -18,15 +18,13 @@
 		</div>
 
 		<div id="search-homes" class="hero-text text-center">
-			<h2 class=" text-3xl text-red-500">Let Me Help You</h2>
+			<h2 class=" text-3xl text-red-500 pb-2">Let Me Help You</h2>
 			<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
 		</div>
 
 		<div class="hero-btn">
-			<!-- <button href="https://brianaltomari.kw.com/" target="_blank"
-				>Search Now</button
-			> -->
 			<form action="https://brianaltomari.kw.com" target="_blank">
+				<!-- <button type="submit">Search For Yo/ur New Home Now</button> -->
 				<button type="submit">Search Now</button>
 			</form>
 		</div>
