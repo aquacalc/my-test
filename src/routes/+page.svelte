@@ -1,5 +1,5 @@
 <script>
-	//
+	let clientEmail = $state('');
 </script>
 
 <div class="container">
@@ -44,14 +44,16 @@
 
 	<!-- see: https://www.sitepoint.com/style-html-details-element/ -->
 	<div class="about-brian">
-		<img id='service-img' src="clay-elliot-PF7mP2xCeQw-unsplash.jpg" alt="Brian Altomari" />
+		<img id="service-img" src="clay-elliot-PF7mP2xCeQw-unsplash.jpg" alt="Brian Altomari" />
 		<p class="pt-8 mb-4 px-3 text-justify leading-8 text-gray-500">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum expedita vero, recusandae
 			animi sit quod! Autem consequatur accusantium saepe repellat natus hic rem accusamus eum,
 			praesentium, placeat repudiandae totam.
 		</p>
 		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
-			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+			Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
+			sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 		</p>
 		<details close style="cursor: pointer;">
 			<summary><em> More info...</em></summary>
@@ -112,6 +114,7 @@
 						id="email"
 						name="email"
 						type="email"
+						bind:value={clientEmail}
 						autocomplete="email"
 						class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
 					/>
@@ -120,10 +123,10 @@
 		</section>
 
 		<div class="subscribe-social mt-10">
-			<a href="https://www.facebook.com/" target="_blank" style="cursor: pointer;">
+			<a href="https://www.facebook.com/people/Brian-Altomari-Orlando-Realtor/61565822827296/" target="_blank" style="cursor: pointer;">
 				<img src="facebook_2504903.png" alt="facebook icon" />
 			</a>
-			<a href="https://www.instagram.com//" target="_blank" style="cursor: pointer;">
+			<a href="https://www.instagram.com/brianaltomari_realtor/" target="_blank" style="cursor: pointer;">
 				<img src="instagram_2111463.png" alt="instagram icon" />
 			</a>
 		</div>
@@ -182,6 +185,7 @@
 										id="email"
 										name="email"
 										type="email"
+										bind:value={clientEmail}
 										autocomplete="email"
 										class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
 									/>
@@ -221,16 +225,16 @@
 
 		<div id="contact-me" class="contact-data pl-16">
 			<h2 class="mb-12 text-2xl font-semibold text-blue-900">Brian Altomari</h2>
-			<h4 id="mobile">Mobile: 904-555-1212</h4>
-			<h4 id="office" class="mb-4">Office: 904-555-1212</h4>
+			<h4 id="mobile">Mobile: (312) 420-3587</h4>
+			<h4 id="office" class="mb-4">Office: (407) 545-6430</h4>
 			<h4 id="bri-email" class="mb-10">
 				<a
 					class="text-gray-500 border-gray-300 hover:text-orange-500"
 					outline
 					color="dark"
-					href="mailto: brianaltomari@gmail.com?subject=My Guy Bri"
+					href="mailto: brianaltomari@kw.com?subject=My Guy Bri"
 					target="_blank"
-					rel="noopener noreferrer">brianaltomari@gmail.com</a
+					rel="noopener noreferrer">brianaltomari@kw.com</a
 				>
 			</h4>
 			<h4 id="address-1" class="mb-1 font-semibold text-slate-900">Keller Williams Winter Park</h4>
