@@ -7,6 +7,7 @@
 		<img id="my-guy-bri-img" src="my-guy-bri-banner.jpg" alt="hero kitchen" />
 	</a>
 	<div class="nav-links">
+		<a href="/">Home</a>
 		<a href="#search-homes">Search</a>
 		<a href="#our-services">Services</a>
 		<a href="#about-me">About Brian</a>
