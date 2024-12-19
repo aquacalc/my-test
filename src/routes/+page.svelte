@@ -8,7 +8,7 @@
 	<a href="/">
 		<img id="my-guy-bri-img" src="my-guy-bri-banner.jpg" alt="hero kitchen" />
 	</a>
-	<div class="nav-links">
+	<div class="nav-links text-gray-500">
 		<a href="/">Home</a>
 		<a href="#search-homes">Search</a>
 		<a href="#our-services">Services</a>
