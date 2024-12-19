@@ -45,7 +45,8 @@
 	<!-- see: https://www.sitepoint.com/style-html-details-element/ -->
 	<div class="about-brian">
 		<img id="service-img" src="clay-elliot-PF7mP2xCeQw-unsplash.jpg" alt="Brian Altomari" />
-		<p class="pt-8 mb-4 px-3 text-justify leading-8 text-gray-500">
+		<p class="pt-2 mb-0 px-3 text-center leading-8 text-gray-500">License #: SL3619639</p>
+		<p class="pt-3 mb-4 px-3 text-justify leading-8 text-gray-500">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum expedita vero, recusandae
 			animi sit quod! Autem consequatur accusantium saepe repellat natus hic rem accusamus eum,
 			praesentium, placeat repudiandae totam.
