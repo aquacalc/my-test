@@ -46,8 +46,17 @@
 
 	<!-- see: https://www.sitepoint.com/style-html-details-element/ -->
 	<div class="about-brian">
+		<img id='service-img' src="clay-elliot-PF7mP2xCeQw-unsplash.jpg" alt="Brian Altomari" />
+		<p class="pt-8 mb-4 px-3 text-justify leading-8 text-gray-500">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum expedita vero, recusandae
+			animi sit quod! Autem consequatur accusantium saepe repellat natus hic rem accusamus eum,
+			praesentium, placeat repudiandae totam.
+		</p>
+		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
+			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+		</p>
 		<details close style="cursor: pointer;">
-			<summary>More info...</summary>
+			<summary><em> More info...</em></summary>
 			<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque quis est quam
 				perferendis! Nesciunt ipsa fugiat ut consectetur explicabo dolores possimus dolor minima
@@ -212,7 +221,7 @@
 			</form>
 		</div>
 
-		<div id="contact-me" class="contact-data">
+		<div id="contact-me" class="contact-data pl-16">
 			<h2 class="mb-12 text-2xl font-semibold text-blue-900">Brian Altomari</h2>
 			<h4 id="mobile">Mobile: 904-555-1212</h4>
 			<h4 id="office" class="mb-4">Office: 904-555-1212</h4>
@@ -313,13 +322,45 @@
 	}
 
 	/* ABOUT */
+	.about-brian {
+		margin: 0 auto;
+		width: 50%;
+	}
 
-	summary {
+	/* summary {
 		list-style-position: outside;
 		margin-left: 30px;
 		padding: 10px 10px 10px 20px;
 		border-radius: 5px;
 		list-style-type: '⬇ ';
+		color: #334070;
+	} */
+	summary {
+		display: flex;
+		align-items: center;
+		color: #334070;
+	}
+
+	summary::after {
+		content: '';
+		width: 18px;
+		height: 10px;
+		/* background: url('arrow.svg'); */
+		background: url('https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg')
+			no-repeat;
+		background-size: cover;
+		margin-left: 0.75em;
+		transition: 0.2s;
+	}
+
+	details[open] > summary::after {
+		transform: rotate(180deg);
+	}
+
+	/* sigh, Safari again */
+
+	summary::-webkit-details-marker {
+		display: none;
 	}
 
 	summary::marker {
@@ -327,9 +368,9 @@
 		font-size: 1.2em;
 	}
 
-	details[open] > summary {
+	/* details[open] > summary {
 		list-style-type: '⬆ ';
-	}
+	} */
 
 	/* SERVICES */
 
