@@ -250,6 +250,7 @@
 	#my-guy-bri-img {
 		width: 175px;
 		border-radius: 15px;
+		margin-left: 1.5rem;
 	}
 
 	.nav-links {
