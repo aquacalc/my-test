@@ -71,12 +71,12 @@
 
 	<div class="services">
 		<div class="row-1">
-			<div class="service-image">
+			<div class="service-image ml-4">
 				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
 			</div>
 			<div class="service-text">
-				<h2 class="py-6 text-3xl text-blue-700">Real Estate Done Right</h2>
-				<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
+				<h2 class="mr-8 py-6 text-3xl text-blue-700">Real Estate Done Right</h2>
+				<p class="mr-8 mb-4 px-3 text-justify leading-8 text-gray-500">
 					Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or
 					sell, in the middle of it, or just looking for some answers, our top-notch skills ensure
 					you get the best experience possible. It’s what we love to do.
@@ -86,14 +86,14 @@
 
 		<div class="row-2">
 			<div class="service-text">
-				<h2 class="py-6 text-3xl text-blue-700">Rely on Expertise</h2>
-				<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
+				<h2 class="ml-8 py-6 text-3xl text-blue-700">Rely on Expertise</h2>
+				<p class="ml-8 mb-4 px-3 text-justify leading-8 text-gray-500">
 					If you have questions about and and all things real estate, trust us to find you what you
 					need fast. We make sure you feel confident and educated every step of the way. We pride
 					ourselves in being your trusted residential real estate resource.
 				</p>
 			</div>
-			<div class="service-image">
+			<div class="service-image mr-4">
 				<img id="service-img-2" src="pexels-mikhail-nilov-9400877.jpg" alt="hero kitchen" />
 			</div>
 		</div>
@@ -136,7 +136,7 @@
 	</div>
 
 	<div id="contact">
-		<div class="contact-form">
+		<div class="contact-form ml-8">
 			<form>
 				<div class="space-y-12">
 					<div class="border-b border-gray-900/10 pb-12">
