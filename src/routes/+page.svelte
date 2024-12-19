@@ -175,14 +175,17 @@
 		<hr class="hr-2" />
 	</div>
 
+	<img id="winter-park-img" src="winter-park-wide.jpg" alt="winter park" />
+
 	<div id="contact">
 		<div class="contact-form ml-8">
 			<form>
 				<div class="space-y-12">
-					<div class="border-b border-gray-900/10 pb-12">
+					<!-- <div class="border-b border-gray-900/10 pb-2"> -->
+					<div>
 						<h2 class="text-2xl font-semibold text-blue-900">Contact Brian</h2>
 
-						<div class="mt-4 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+						<div class="mt-4 grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-6">
 							<div class="sm:col-span-3">
 								<label for="first-name" class="block text-sm/6 font-medium text-gray-900"
 									>First name</label
@@ -233,17 +236,17 @@
 				</div>
 
 				<div class="col-span-full">
-					<label for="about" class="mt-6 block text-sm/6 font-medium text-gray-900"
-						>How can I help?</label
+					<label for="about" class="mt-3 block text-sm/6 font-medium text-gray-900"
+						><em>How can I help?</em></label
 					>
 					<p class="mt-0 text-sm/6 text-gray-500">
-						<em>Please write a few sentences about what you're looking for.</em>
+						<!-- <em>Please write a few sentences about what you're looking for.</em> -->
 					</p>
 					<div class="mt-2">
 						<textarea
 							name="about"
 							id="about"
-							rows="4"
+							rows="3"
 							placeholder="Please write a few sentences about what you're looking for..."
 							class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-blue-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
 						>
@@ -251,7 +254,7 @@
 					</div>
 				</div>
 
-				<div class="mb-8 mt-6 flex">
+				<div class="mb-8 mt-4 flex">
 					<!-- <button type="button" class="text-sm/6 font-semibold text-gray-900">Cancel</button> -->
 					<button type="submit" style="flex: 110;" class="text-sm font-semibold text-gray-900"
 						>Send</button
@@ -261,7 +264,7 @@
 		</div>
 
 		<div id="contact-me" class="contact-data pl-16">
-			<h2 class="mb-12 text-2xl font-semibold text-blue-900">Brian Altomari</h2>
+			<h2 class="mb-9 text-2xl font-semibold text-blue-900">Brian Altomari</h2>
 			<h4 id="mobile">Mobile: (312) 420-3587</h4>
 			<h4 id="office" class="mb-4">Office: (407) 545-6430</h4>
 			<h4 id="bri-email" class="mb-10">
@@ -357,7 +360,7 @@
 	.hr-1,
 	.hr-2 {
 		border: 1px lightgray solid;
-		margin: 30px;
+		margin: 20px;
 		flex: 1 1 0;
 	}
 
@@ -493,5 +496,11 @@
 	#address-2,
 	#address-3 {
 		padding-left: 1rem;
+	}
+
+	#winter-park-img {
+		/* width: 600px; */
+		margin: 0px auto;
+		border-radius: 8px;
 	}
 </style>
