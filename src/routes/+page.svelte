@@ -2,22 +2,27 @@
 	let clientEmail = $state('');
 </script>
 
-<div class="container">
-	<nav class="my-10">
+<nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0">
+	<a href="/">
 		<img id="my-guy-bri-img" src="my-guy-bri-banner.jpg" alt="hero kitchen" />
-		<div class="nav-links">
-			<a href="#search-homes">Search</a>
-			<a href="#our-services">Services</a>
-			<a href="#about-me">About Brian</a>
-			<a href="#contact-me">Contact Brian</a>
-		</div>
-	</nav>
+	</a>
+	<div class="nav-links">
+		<a href="#search-homes">Search</a>
+		<a href="#our-services">Services</a>
+		<a href="#about-me">About Brian</a>
+		<a href="#contact-me">Contact Brian</a>
+	</div>
+</nav>
+
+<div class="container">
 	<section>
 		<div class="hero-image">
 			<img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
 		</div>
 
-		<div id="search-homes" class="hero-text text-center">
+		<div id="search-homes" class="mb-10"></div>
+
+		<div class="hero-text text-center">
 			<h2 class=" text-3xl text-red-500 pb-2">Let Me Help You</h2>
 			<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
 		</div>
@@ -36,7 +41,9 @@
 		</p>
 	</section>
 
-	<div id="about-me" class="my-hr">
+	<div id="about-me" class="mb-12"></div>
+
+	<div class="my-hr">
 		<hr class="hr-1" />
 		<h4 class="middle-text">About Brian</h4>
 		<hr class="hr-2" />
@@ -66,7 +73,9 @@
 		</details>
 	</div>
 
-	<div id="our-services" class="my-hr">
+	<div id="our-services" class="mb-12"></div>
+
+	<div class="my-hr">
 		<hr class="hr-1" />
 		<h4 class="middle-text">Our Services</h4>
 		<hr class="hr-2" />
@@ -124,20 +133,38 @@
 		</section>
 
 		<div class="subscribe-social mt-10">
-			<a href="https://www.facebook.com/people/Brian-Altomari-Orlando-Realtor/61565822827296/" target="_blank" style="cursor: pointer;">
+			<a
+				href="https://www.facebook.com/people/Brian-Altomari-Orlando-Realtor/61565822827296/"
+				target="_blank"
+				style="cursor: pointer;"
+			>
 				<img src="facebook_2504903.png" alt="facebook icon" />
 			</a>
-			<a href="https://www.instagram.com/brianaltomari_realtor/" target="_blank" style="cursor: pointer;">
+			<a
+				href="https://www.instagram.com/brianaltomari_realtor/"
+				target="_blank"
+				style="cursor: pointer;"
+			>
 				<img src="instagram_2111463.png" alt="instagram icon" />
 			</a>
-			<a href="https://www.linkedin.com/in/brian-altomari-5a719961/" target="_blank" style="cursor: pointer;">
+			<a
+				href="https://www.linkedin.com/in/brian-altomari-5a719961/"
+				target="_blank"
+				style="cursor: pointer;"
+			>
 				<img src="linkedin_2504923.png" alt="instagram icon" />
 			</a>
-			<a href="https://www.youtube.com/@brianaltomari_realtor" target="_blank" style="cursor: pointer;">
+			<a
+				href="https://www.youtube.com/@brianaltomari_realtor"
+				target="_blank"
+				style="cursor: pointer;"
+			>
 				<img src="youtube_4096116.png" alt="instagram icon" />
 			</a>
 		</div>
 	</div>
+
+	<div id="contact-me" class="mb-12"></div>
 
 	<div class="my-hr">
 		<hr class="hr-1" />
