@@ -90,7 +90,7 @@
 				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
 			</div>
 			<div class="service-text">
-				<h2 class="mr-8 py-6 text-3xl text-blue-700">Real Estate Done Right</h2>
+				<h2 class="mr-8 py-6 text-3xl text-blue-800">Real Estate Done Right</h2>
 				<p class="mr-8 mb-4 px-3 text-justify leading-8 text-gray-500">
 					Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or
 					sell, in the middle of it, or just looking for some answers, our top-notch skills ensure
@@ -101,7 +101,7 @@
 
 		<div class="row-2">
 			<div class="service-text">
-				<h2 class="ml-8 py-6 text-3xl text-blue-700">Rely on Expertise</h2>
+				<h2 class="ml-8 py-6 text-3xl text-blue-800">Rely on Expertise</h2>
 				<p class="ml-8 mb-4 px-3 text-justify leading-8 text-gray-500">
 					If you have questions about and and all things real estate, trust us to find you what you
 					need fast. We make sure you feel confident and educated every step of the way. We pride
@@ -331,23 +331,20 @@
 		border-radius: 22px;
 		padding: 20px;
 		width: 12rem;
-		/* background-color: whitesmoke; */
-		/* border: 1px solid transparent; */
-		border: 1px solid orangered;
-		color: rgba(4, 34, 133, 0.5);
-		color: orangered;
+		/* border: 1px solid orangered;
+		color: orangered; */
+		border: 1px solid  #041E42;
+		color:  #041E42;
 		opacity: 0.75;
 		font-size: 1.25rem;
 		margin-bottom: 15px;
 	}
 	button:hover {
-		/* background-color: rgb(41, 73, 140); */
-		/* background-color: rgb(163, 192, 238); */
-		background-color: white;
-		background-color: rgba(255, 215, 200, 0.25);
+		/* background-color: rgba(255, 215, 200, 0.25); */
+		background-color:  #041E42;
 		/* border: 1px solid orangered; */
-		color: rgb(2, 41, 103);
-		color: orangered;
+		/* color: orangered; */
+		color: #fff;
 		opacity: 1;
 	}
 
