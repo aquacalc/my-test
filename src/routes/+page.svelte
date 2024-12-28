@@ -320,6 +320,10 @@
 			<h4 id="address-1" class="mb-1 font-semibold text-slate-900">Keller Williams Winter Park</h4>
 			<h4 id="address-2">147 W. Lyman Avenue</h4>
 			<h4 id="address-3">Winter Park, FL 32789</h4>
+
+			<div style="margin-left: -75px; margin-top: 35px;">
+				<img id="service-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
+			</div>
 		</div>
 	</div>
 </div>
