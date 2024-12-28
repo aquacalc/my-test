@@ -6,13 +6,13 @@
 
 <nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0 z-50">
 	<a href="/">
-		<img id="my-guy-bri-img" src="my-guy-bri-banner.jpg" alt="hero kitchen" />
+		<img id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
 	</a>
 	<div class="nav-links text-gray-500">
 		<a href="/">Home</a>
 		<a href="#search-homes">Search</a>
-		<a href="#our-services">Services</a>
 		<a href="#about-me">About Brian</a>
+		<a href="#our-services">Services</a>
 		<a href="#contact-me">Contact Brian</a>
 	</div>
 </nav>
@@ -23,7 +23,7 @@
 			<img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
 		</div>
 
-		<div id="search-homes" class="mb-10"></div>
+		<div id="search-homes" class="mb-0"></div>
 
 		<div class="hero-text text-center">
 			<h2 class=" text-3xl text-red-500 pb-2">Let Me Help You</h2>
@@ -39,7 +39,7 @@
 
 		<p class="mx-20 mb-0 text-xl text-gray-500">I'm glad you stopped by!</p>
 		<p class="mx-20 text-xl text-gray-500">
-			There's so much to see here, so, take your time, look around, and learn all there is to know
+			There's so much to see here, so take your time, look around, and learn all there is to know
 			about us. We hope you enjoy our site and take a moment to drop us a line.
 		</p>
 	</section>
@@ -54,20 +54,38 @@
 
 	<!-- see: https://www.sitepoint.com/style-html-details-element/ -->
 	<div class="about-brian">
-		<img id="service-img" src="clay-elliot-PF7mP2xCeQw-unsplash.jpg" alt="Brian Altomari" />
+		<img id="service-img" src="brian-image-crop.jpg" alt="Brian Altomari" />
 		<p class="pt-2 mb-0 px-3 text-center leading-8 text-gray-500">License #: SL3619639</p>
 		<p class="pt-3 mb-4 px-3 text-justify leading-8 text-gray-500">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum expedita vero, recusandae
-			animi sit quod! Autem consequatur accusantium saepe repellat natus hic rem accusamus eum,
-			praesentium, placeat repudiandae totam.
+			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
+			with such an important transaction which is deeply personal to YOU.
 		</p>
+		<ul class="pt-3 mb-4 px-3 text-justify leading-8 text-gray-500">
+			<li>This is <em>not</em> a side hustle.</li>
+			<li>This is <em>not</em> something I'm doing because it looked cool on TV.</li>
+			<!-- <li>
+				This has <em>nothing</em> to do with Phil Dunphy (though I am a fan of <em>Modern Family</em>).
+			</li> -->
+			<li>
+				This is my passion; it's my full-time career.
+			</li>
+			<li class="mt-3 text-center">
+				<span class="text-2xl text-blue-800 font-bold">I'M ALL IN FOR YOU</span>.
+			</li>
+		</ul>
 		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
-			Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-			Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero
-			sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+			I know both sides of real estate in Florida, and my personal commitment is to make your life easier. I'll make this process professional and FUN! 🎈
 		</p>
 		<details close style="cursor: pointer;">
-			<summary><em> More info...</em></summary>
+			<summary><em> More about Brian...</em></summary>
+		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
+			My organizational skills are unmatched and I live by the <a
+				href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
+				target="_blank"
+				>Mamba Mentality
+			</a>, so you are going to get the absolute best that I have to offer in every step of your
+			transaction, and each and every day.
+		</p>
 			<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque quis est quam
 				perferendis! Nesciunt ipsa fugiat ut consectetur explicabo dolores possimus dolor minima
@@ -110,6 +128,28 @@
 			</div>
 			<div class="service-image mr-4">
 				<img id="service-img-2" src="pexels-mikhail-nilov-9400877.jpg" alt="hero kitchen" />
+			</div>
+		</div>
+
+		<div class="row-1">
+			<div class="service-image ml-4">
+				<img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" />
+			</div>
+			<div class="service-text">
+				<!-- <h2 class="mr-8 pb-0 text-3xl text-blue-800">Rely on KW</h2> -->
+				<div class="service-image mr-10 pb-4" >
+					<img id="service-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
+				</div>
+				<p class="mr-8 mb-4 px-3 text-justify leading-8 text-gray-500">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
+					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
+					veritatis ut provident at, est excepturi optio?
+				</p>
+				<p class="mr-8 mb-4 px-3 text-justify leading-8 text-gray-500">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
+					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
+					veritatis ut provident at, est excepturi optio?
+				</p>
 			</div>
 		</div>
 	</div>
@@ -175,7 +215,7 @@
 		<hr class="hr-2" />
 	</div>
 
-	<img id="winter-park-img" src="winter-park-wide.jpg" alt="winter park" />
+	<!-- <img id="winter-park-img" src="winter-park-wide.jpg" alt="winter park" /> -->
 
 	<div id="contact">
 		<div class="contact-form ml-8">
@@ -292,7 +332,7 @@
 	}
 
 	#my-guy-bri-img {
-		width: 175px;
+		width: 135px;
 		border-radius: 15px;
 		margin-left: 1.5rem;
 	}
@@ -333,15 +373,15 @@
 		width: 12rem;
 		/* border: 1px solid orangered;
 		color: orangered; */
-		border: 1px solid  #041E42;
-		color:  #041E42;
+		border: 1px solid #041e42;
+		color: #041e42;
 		opacity: 0.75;
 		font-size: 1.25rem;
 		margin-bottom: 15px;
 	}
 	button:hover {
 		/* background-color: rgba(255, 215, 200, 0.25); */
-		background-color:  #041E42;
+		background-color: #041e42;
 		/* border: 1px solid orangered; */
 		/* color: orangered; */
 		color: #fff;
