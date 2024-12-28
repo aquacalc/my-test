@@ -80,6 +80,7 @@
 			<summary><em> More about Brian...</em></summary>
 		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
 			My organizational skills are unmatched and I live by the <a
+			class="font-underline text-sky-500 hover:text-sky-700"
 				href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
 				target="_blank"
 				>Mamba Mentality
