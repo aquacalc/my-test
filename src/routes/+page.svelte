@@ -6,7 +6,7 @@
 
 <nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0 z-50">
 	<a href="/">
-		<img id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
+		<img class='py-1' id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
 	</a>
 	<div class="nav-links text-gray-500">
 		<a href="/">Home</a>
@@ -19,7 +19,7 @@
 
 <div class="container">
 	<section>
-		<div class="hero-image">
+		<div class="hero-image pt-2">
 			<img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
 		</div>
 
@@ -54,7 +54,7 @@
 
 	<!-- see: https://www.sitepoint.com/style-html-details-element/ -->
 	<div class="about-brian">
-		<img id="service-img" src="brian-image-crop.jpg" alt="Brian Altomari" />
+		<img id="brian-img" src="brian-image-crop.jpg" alt="Brian Altomari" />
 		<p class="pt-2 mb-0 px-3 text-center leading-8 text-gray-500">License #: SL3619639</p>
 		<p class="pt-3 mb-4 px-3 text-justify leading-8 text-gray-500">
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
@@ -79,13 +79,13 @@
 		<details close style="cursor: pointer;">
 			<summary><em> More about Brian...</em></summary>
 		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
-			My organizational skills are unmatched and I live by the <a
+			My organizational skills are unmatched, and I live by the <a
 			class="font-underline text-sky-500 hover:text-sky-700"
 				href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
 				target="_blank"
 				>Mamba Mentality
 			</a>, so you are going to get the absolute best that I have to offer in every step of your
-			transaction, and each and every day.
+			transaction each and every day.
 		</p>
 			<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque quis est quam
@@ -337,7 +337,7 @@
 	}
 
 	#my-guy-bri-img {
-		width: 135px;
+		width: 125px;
 		border-radius: 15px;
 		margin-left: 1.5rem;
 	}
@@ -370,6 +370,10 @@
 	#hero-img {
 		width: 750px;
 		border-radius: 8px;
+		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2),
+            1px 2px 4px 0px rgba(0, 0, 0, 0.2),
+            2px 4px 8px 0px rgba(0, 0, 0, 0.2),
+            2px 4px 16px 0px rgba(0, 0, 0, 0.2);
 	}
 
 	button {
@@ -485,6 +489,16 @@
 	/* } */
 	#service-img,
 	#service-img-2 {
+		width: 400px;
+		margin: 0 auto;
+		border-radius: 8px;
+		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2),
+            1px 2px 4px 0px rgba(0, 0, 0, 0.2),
+            2px 4px 8px 0px rgba(0, 0, 0, 0.2),
+            2px 4px 16px 0px rgba(0, 0, 0, 0.2);
+	}
+
+	#brian-img {
 		width: 400px;
 		margin: 0 auto;
 		border-radius: 8px;
