@@ -469,7 +469,7 @@
 
 	.services {
 		display: grid;
-		grid-template-rows: 1fr 1fr;
+		/* grid-template-rows: 1fr 1fr; */
 		gap: 3rem;
 	}
 
