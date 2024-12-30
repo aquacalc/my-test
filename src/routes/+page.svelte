@@ -138,8 +138,8 @@
 			</div>
 			<div class="service-text">
 				<!-- <h2 class="mr-8 pb-0 text-3xl text-blue-800">Rely on KW</h2> -->
-				<div class="service-image mr-10 pb-4" >
-					<img id="service-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
+				<div class="service-image mr-14 pb-4" >
+					<img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
 				</div>
 				<p class="mr-8 mb-4 px-3 text-justify leading-8 text-gray-500">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
@@ -327,7 +327,7 @@
 			<h4 id="address-3">Winter Park, FL 32789</h4>
 
 			<div style="margin-left: -75px; margin-top: 35px;">
-				<img id="service-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
+				<img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
 			</div>
 		</div>
 	</div>
@@ -502,7 +502,9 @@
             2px 4px 16px 0px rgba(0, 0, 0, 0.2);
 	}
 
-	#brian-img {
+	/* No shadow */
+	#brian-img,
+	#kw-logo-img {
 		width: 400px;
 		margin: 0 auto;
 		border-radius: 8px;
