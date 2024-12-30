@@ -181,6 +181,7 @@
 				href="https://www.facebook.com/people/Brian-Altomari-Orlando-Realtor/61565822827296/"
 				target="_blank"
 				style="cursor: pointer;"
+				title="Facebook"
 			>
 				<img src="facebook_2504903.png" alt="facebook icon" />
 			</a>
@@ -188,6 +189,7 @@
 				href="https://www.instagram.com/brianaltomari_realtor/"
 				target="_blank"
 				style="cursor: pointer;"
+				title="Instagram"
 			>
 				<img src="instagram_2111463.png" alt="instagram icon" />
 			</a>
@@ -195,6 +197,7 @@
 				href="https://www.linkedin.com/in/brian-altomari-5a719961/"
 				target="_blank"
 				style="cursor: pointer;"
+				title="LinkedIn"
 			>
 				<img src="linkedin_2504923.png" alt="instagram icon" />
 			</a>
@@ -202,6 +205,7 @@
 				href="https://www.youtube.com/@brianaltomari_realtor"
 				target="_blank"
 				style="cursor: pointer;"
+				title="YouTube"
 			>
 				<img src="youtube_4096116.png" alt="instagram icon" />
 			</a>
