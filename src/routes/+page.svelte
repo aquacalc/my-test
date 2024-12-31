@@ -141,7 +141,7 @@
 			<div class="service-text">
 				<!-- <h2 class="mx-8 py-4 text-3xl text-blue-800">Rely on KW</h2> -->
 				<div class="service-image pb-4">
-					<img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
+					<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
 				</div>
 				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
