@@ -538,7 +538,8 @@
 	}
 
 	.contact-form {
-		flex: 110;
+		/* flex: 110; */
+		margin: 0 auto;
 	}
 
 	.contact-data {
