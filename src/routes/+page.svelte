@@ -38,7 +38,7 @@
 		</div>
 
 		<p class="mx-10 mb-0 text-xl text-gray-500">I'm glad you stopped by!</p>
-		<p class="mx-10 text-xl text-gray-500">
+		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
 			There's so much to see here, so take your time, look around, and learn all there is to know
 			about us. We hope you enjoy our site and take a moment to drop us a line.
 		</p>
@@ -56,12 +56,12 @@
 	<div class="about-brian">
 		<img id="brian-img" src="brian-image-crop.jpg" alt="Brian Altomari" />
 		<p class="pt-2 mb-0 px-3 text-center leading-8 text-gray-500">License #: SL3619639</p>
-		<p class="pt-3 mb-4 px-3 text-justify leading-8 text-gray-500">
+		<p class="pt-3 mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			<!-- <p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500"> -->
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
 			with such an important transaction which is deeply personal to YOU.
 		</p>
-		<ul class="pt-3 mb-4 px-3 text-justify leading-8 text-gray-500">
+		<ul class="pt-3 mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			<li>This is <em>not</em> a side hustle.</li>
 			<li>This is <em>not</em> something I'm doing because it looked cool on TV.</li>
 			<!-- <li>
@@ -74,13 +74,13 @@
 				>.
 			</li>
 		</ul>
-		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
+		<p class="mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			I know both sides of real estate in Florida, and my personal commitment is to make your life
 			easier. I'll make this process professional and FUN! 🎈
 		</p>
 		<details close style="cursor: pointer;">
 			<summary><em> More about Brian...</em></summary>
-			<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
+			<p class="mb-4 mt-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 				My organizational skills are unmatched, and I live by the <a
 					class="font-underline text-sky-500 hover:text-sky-700"
 					href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
@@ -89,7 +89,7 @@
 				</a>, so you are going to get the absolute best that I have to offer in every step of your
 				transaction each and every day.
 			</p>
-			<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
+			<p class="mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque quis est quam
 				perferendis! Nesciunt ipsa fugiat ut consectetur explicabo dolores possimus dolor minima
 				molestiae nulla, consequuntur provident eligendi fugit?
@@ -112,7 +112,7 @@
 			</div>
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl text-blue-800">Real Estate Done Right</h2>
-				<p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500">
+				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify leading-8 text-gray-500">
 					Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or
 					sell, in the middle of it, or just looking for some answers, our top-notch skills ensure
 					you get the best experience possible. It’s what we love to do.
@@ -123,7 +123,7 @@
 		<div class="row-2">
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl text-blue-800">Rely on Expertise</h2>
-				<p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500">
+				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500">
 					If you have questions about and and all things real estate, trust us to find you what you
 					need fast. We make sure you feel confident and educated every step of the way. We pride
 					ourselves in being your trusted residential real estate resource.
@@ -143,12 +143,12 @@
 				<div class="service-image pb-4">
 					<img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
 				</div>
-				<p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500">
+				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
 					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
 					veritatis ut provident at, est excepturi optio?
 				</p>
-				<p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500">
+				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
 					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
 					veritatis ut provident at, est excepturi optio?
@@ -265,6 +265,7 @@
 				</div>
 
 				<div class="mb-8 mt-4 flex">
+					<!-- Interested? Let's Talk! -->
 					<!-- <button type="button" class="text-sm/6 font-semibold text-gray-900">Cancel</button> -->
 					<button type="submit" style="flex: 110;" class="text-sm font-semibold text-gray-900"
 						>Send</button
