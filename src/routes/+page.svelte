@@ -506,7 +506,6 @@
 	}
 
 	.service-text {
-		background-color: #fff;
 		padding: 0 1rem;
 		/* margin: 10px auto; */
 	}
@@ -575,7 +574,9 @@
 
 		#hero-img {
 			/* width: 100vw; */
-			border-radius: 8px;
+
+			max-width: 430px;
+			/* border-radius: 8px; */
 		}
 
 		#brian-img {
@@ -631,7 +632,7 @@
 		.row-1,
 		.row-2 {
 			flex-direction: row;
-			/* align-items: center; */
+			align-items: center;
 		}
 
 		.row-2 {
@@ -640,7 +641,7 @@
 
 		#service-img,
 		#service-img-2 {
-			width: 70vw;
+			width: 100vw;
 		}
 
 		#kw-logo-img {
