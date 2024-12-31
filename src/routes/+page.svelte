@@ -37,8 +37,8 @@
 			</form>
 		</div>
 
-		<p class="mx-20 mb-0 text-xl text-gray-500">I'm glad you stopped by!</p>
-		<p class="mx-20 text-xl text-gray-500">
+		<p class="mx-10 mb-0 text-xl text-gray-500">I'm glad you stopped by!</p>
+		<p class="mx-10 text-xl text-gray-500">
 			There's so much to see here, so take your time, look around, and learn all there is to know
 			about us. We hope you enjoy our site and take a moment to drop us a line.
 		</p>
@@ -57,6 +57,7 @@
 		<img id="brian-img" src="brian-image-crop.jpg" alt="Brian Altomari" />
 		<p class="pt-2 mb-0 px-3 text-center leading-8 text-gray-500">License #: SL3619639</p>
 		<p class="pt-3 mb-4 px-3 text-justify leading-8 text-gray-500">
+			<!-- <p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500"> -->
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
 			with such an important transaction which is deeply personal to YOU.
 		</p>
@@ -68,7 +69,9 @@
 			</li> -->
 			<li>This is my passion; it's my full-time career.</li>
 			<li class="mt-3 text-center">
-				<span class="text-2xl text-blue-800 font-bold">I'M ALL IN FOR YOU</span>.
+				<span class="text-xl text-blue-800 font-bold"
+					>I'M ALL IN FOR <em class="text-2xl">YOU</em></span
+				>.
 			</li>
 		</ul>
 		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
@@ -126,7 +129,7 @@
 					ourselves in being your trusted residential real estate resource.
 				</p>
 			</div>
-			<div class="service-image mr-4">
+			<div class="service-image">
 				<img id="service-img-2" src="pexels-mikhail-nilov-9400877.jpg" alt="hero kitchen" />
 			</div>
 		</div>
@@ -137,7 +140,7 @@
 			</div>
 			<div class="service-text">
 				<!-- <h2 class="mx-8 py-4 text-3xl text-blue-800">Rely on KW</h2> -->
-				<div class="service-image mr-14 pb-4">
+				<div class="service-image pb-4">
 					<img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
 				</div>
 				<p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500">
@@ -335,6 +338,12 @@
 </div>
 
 <style>
+	.container {
+		width: 100%;
+		height: 100vh;
+		margin: 70px auto;
+	}
+
 	nav {
 		display: grid;
 		grid-template-columns: 1fr 3fr;
@@ -356,13 +365,6 @@
 	.nav-links a:hover {
 		color: orangered;
 		cursor: pointer;
-	}
-
-	.container {
-		width: 100%;
-		height: 100vh;
-		margin: 70px auto;
-		/* background-color: whitesmoke; */
 	}
 
 	section {
@@ -395,10 +397,7 @@
 		margin-bottom: 15px;
 	}
 	button:hover {
-		/* background-color: rgba(255, 215, 200, 0.25); */
 		background-color: #041e42;
-		/* border: 1px solid orangered; */
-		/* color: orangered; */
 		color: #fff;
 		opacity: 1;
 	}
@@ -419,7 +418,7 @@
 	/* ABOUT */
 	.about-brian {
 		margin: 0 auto;
-		width: 50%;
+		width: 80%;
 	}
 
 	/* summary {
@@ -471,17 +470,8 @@
 
 	.services {
 		display: grid;
-		/* grid-template-rows: 1fr 1fr; */
 		gap: 3rem;
 	}
-
-	/* grid-template-columns: 1fr 1fr; */
-	/* .row-1 {
-		display: grid;
-		grid-template-rows: 1fr 1fr;
-		text-align: center;
-		gap: 1rem;
-	} */
 
 	.row-1,
 	.row-2 {
@@ -493,19 +483,11 @@
 
 	.row-2 {
 		flex-direction: column-reverse;
-		/* display: grid;
-		grid-template-columns: 1fr 1fr;
-		text-align: center;
-		gap: 3rem; */
 	}
 
-	/* .service-image { */
-	/* justify-content: center; */
-	/* background-color: rgb(226, 255, 205); */
-	/* } */
 	#service-img,
 	#service-img-2 {
-		width: 100vw;
+		width: 80vw;
 		margin: 0 auto;
 		border-radius: 8px;
 		box-shadow:
@@ -545,9 +527,6 @@
 		justify-content: center;
 		gap: 3rem;
 	}
-	/* .subscribe-social a img {
-    flex: 110;
-  } */
 
 	/* CONTACT */
 
@@ -568,14 +547,14 @@
 		/* padding-left: 1rem; */
 	}
 
-	#mobile,
+	/* #mobile,
 	#office,
 	#bri-email,
 	#address-1,
 	#address-2,
-	#address-3 {
-		/* padding-left: 1rem; */
-	}
+	#address-3 { */
+	/* padding-left: 1rem; */
+	/* } */
 
 	#winter-park-img {
 		/* width: 600px; */
@@ -583,15 +562,16 @@
 		border-radius: 8px;
 	}
 
-	@media (min-width: 768px) {
+	/* @media screen and (min-width: 768) { */
+	@media screen and (min-width: 576px) {
 		nav {
 			grid-template-columns: 1fr 2fr;
 			gap: 2rem;
 		}
 
-		.container {
+		/* .container {
 			margin: 70px auto;
-		}
+		} */
 
 		#hero-img {
 			/* width: 100vw; */
@@ -600,15 +580,15 @@
 
 		#brian-img {
 			width: 300px;
-			margin: 0 auto;
-			border-radius: 8px;
 		}
 
 		#service-img,
 		#service-img-2 {
-			width: 70vw;
-			margin: 0 auto;
-			border-radius: 8px;
+			width: 50vw;
+		}
+
+		.service-text {
+			padding: 0 0rem;
 		}
 
 		#kw-logo-img {
@@ -617,41 +597,50 @@
 			border-radius: 8px;
 		}
 
-		.contact-form {
-			flex: 110;
-		}
-
-		/* .contact-data {
+		/* .contact-form {
 			flex: 110;
 		} */
 	}
 
-	@media (min-width: 900px) {
+	@media screen and (min-width: 900px) {
+		/* @media screen and (min-width: 768) { */
+		/* .container {
+			margin: 70px auto;
+		} */
+
 		nav {
 			grid-template-columns: 1fr 2fr;
 			gap: 2rem;
 		}
 
-		.container {
-			margin: 70px auto;
-		}
-
 		#hero-img {
 			width: 70vw;
-			border-radius: 8px;
+			max-width: 730px;
 		}
 
 		#brian-img {
 			width: 300px;
-			margin: 0 auto;
-			border-radius: 8px;
+		}
+
+		.services {
+			/* display: grid;
+			gap: 3rem; */
+			margin: 20px;
+		}
+
+		.row-1,
+		.row-2 {
+			flex-direction: row;
+			/* align-items: center; */
+		}
+
+		.row-2 {
+			flex-direction: row;
 		}
 
 		#service-img,
 		#service-img-2 {
 			width: 70vw;
-			margin: 0 auto;
-			border-radius: 8px;
 		}
 
 		#kw-logo-img {
@@ -659,13 +648,5 @@
 			margin: 0 auto;
 			border-radius: 8px;
 		}
-
-		.contact-form {
-			flex: 110;
-		}
-
-		/* .contact-data {
-			flex: 110;
-		} */
 	}
 </style>
