@@ -5,15 +5,15 @@
 </script>
 
 <nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0 z-50">
-	<a href="/">
-		<img class='py-1' id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
+	<a href="/" title="My Guy Bri HOME">
+		<img class="py-1" id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
 	</a>
 	<div class="nav-links text-gray-500">
-		<a href="/">Home</a>
-		<a href="#search-homes">Search</a>
-		<a href="#about-me">About Brian</a>
-		<a href="#our-services">Services</a>
-		<a href="#contact-me">Contact Brian</a>
+		<!-- <a href="/">Home</a> -->
+		<a href="#about-me" title="About Brian">About Brian</a>
+		<a href="#search-homes" title="Search properties">Search</a>
+		<a href="#our-services" title="My services">Services</a>
+		<a href="#contact-me" title="Contact Brian">Contact</a>
 	</div>
 </nav>
 
@@ -66,27 +66,26 @@
 			<!-- <li>
 				This has <em>nothing</em> to do with Phil Dunphy (though I am a fan of <em>Modern Family</em>).
 			</li> -->
-			<li>
-				This is my passion; it's my full-time career.
-			</li>
+			<li>This is my passion; it's my full-time career.</li>
 			<li class="mt-3 text-center">
 				<span class="text-2xl text-blue-800 font-bold">I'M ALL IN FOR YOU</span>.
 			</li>
 		</ul>
 		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
-			I know both sides of real estate in Florida, and my personal commitment is to make your life easier. I'll make this process professional and FUN! 🎈
+			I know both sides of real estate in Florida, and my personal commitment is to make your life
+			easier. I'll make this process professional and FUN! 🎈
 		</p>
 		<details close style="cursor: pointer;">
 			<summary><em> More about Brian...</em></summary>
-		<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
-			My organizational skills are unmatched, and I live by the <a
-			class="font-underline text-sky-500 hover:text-sky-700"
-				href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
-				target="_blank"
-				>Mamba Mentality
-			</a>, so you are going to get the absolute best that I have to offer in every step of your
-			transaction each and every day.
-		</p>
+			<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
+				My organizational skills are unmatched, and I live by the <a
+					class="font-underline text-sky-500 hover:text-sky-700"
+					href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
+					target="_blank"
+					>Mamba Mentality
+				</a>, so you are going to get the absolute best that I have to offer in every step of your
+				transaction each and every day.
+			</p>
 			<p class="mb-4 px-3 text-justify leading-8 text-gray-500">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque quis est quam
 				perferendis! Nesciunt ipsa fugiat ut consectetur explicabo dolores possimus dolor minima
@@ -105,12 +104,12 @@
 
 	<div class="services">
 		<div class="row-1">
-			<div class="service-image ml-4">
+			<div class="service-image">
 				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
 			</div>
 			<div class="service-text">
-				<h2 class="mr-8 py-6 text-3xl text-blue-800">Real Estate Done Right</h2>
-				<p class="mr-8 mb-4 px-3 text-justify leading-8 text-gray-500">
+				<h2 class="mx-8 py-4 text-3xl text-blue-800">Real Estate Done Right</h2>
+				<p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500">
 					Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or
 					sell, in the middle of it, or just looking for some answers, our top-notch skills ensure
 					you get the best experience possible. It’s what we love to do.
@@ -120,8 +119,8 @@
 
 		<div class="row-2">
 			<div class="service-text">
-				<h2 class="ml-8 py-6 text-3xl text-blue-800">Rely on Expertise</h2>
-				<p class="ml-8 mb-4 px-3 text-justify leading-8 text-gray-500">
+				<h2 class="mx-8 py-4 text-3xl text-blue-800">Rely on Expertise</h2>
+				<p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500">
 					If you have questions about and and all things real estate, trust us to find you what you
 					need fast. We make sure you feel confident and educated every step of the way. We pride
 					ourselves in being your trusted residential real estate resource.
@@ -133,20 +132,20 @@
 		</div>
 
 		<div class="row-1">
-			<div class="service-image ml-4">
+			<div class="service-image">
 				<img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" />
 			</div>
 			<div class="service-text">
-				<!-- <h2 class="mr-8 pb-0 text-3xl text-blue-800">Rely on KW</h2> -->
-				<div class="service-image mr-14 pb-4" >
+				<!-- <h2 class="mx-8 py-4 text-3xl text-blue-800">Rely on KW</h2> -->
+				<div class="service-image mr-14 pb-4">
 					<img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
 				</div>
-				<p class="mr-8 mb-4 px-3 text-justify leading-8 text-gray-500">
+				<p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
 					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
 					veritatis ut provident at, est excepturi optio?
 				</p>
-				<p class="mr-8 mb-4 px-3 text-justify leading-8 text-gray-500">
+				<p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
 					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
 					veritatis ut provident at, est excepturi optio?
@@ -155,62 +154,25 @@
 		</div>
 	</div>
 
-	<div class="subscribe mt-12">
-		<h1>Subscribe</h1>
-
-		<p class="mb-2 text-gray-500">Sign up for real estate news.</p>
-
+	<!-- <h1>Subscribe</h1>
+	
+	<p class="mb-2 text-gray-500">Sign up for real estate news.</p>
+	
 		<section>
 			<div class="sm:col-span-4">
 				<label for="email" class="block text-sm/6 font-medium text-gray-900">Email address</label>
 				<div class="mt-2">
 					<input
-						id="email"
-						name="email"
-						type="email"
-						bind:value={clientEmail}
-						autocomplete="email"
-						class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+					id="email"
+					name="email"
+					type="email"
+					bind:value={clientEmail}
+					autocomplete="email"
+					class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
 					/>
-				</div>
-			</div>
-		</section>
-
-		<div class="subscribe-social mt-10">
-			<a
-				href="https://www.facebook.com/people/Brian-Altomari-Orlando-Realtor/61565822827296/"
-				target="_blank"
-				style="cursor: pointer;"
-				title="Facebook"
-			>
-				<img src="facebook_2504903.png" alt="facebook icon" />
-			</a>
-			<a
-				href="https://www.instagram.com/brianaltomari_realtor/"
-				target="_blank"
-				style="cursor: pointer;"
-				title="Instagram"
-			>
-				<img src="instagram_2111463.png" alt="instagram icon" />
-			</a>
-			<a
-				href="https://www.linkedin.com/in/brian-altomari-5a719961/"
-				target="_blank"
-				style="cursor: pointer;"
-				title="LinkedIn"
-			>
-				<img src="linkedin_2504923.png" alt="instagram icon" />
-			</a>
-			<a
-				href="https://www.youtube.com/@brianaltomari_realtor"
-				target="_blank"
-				style="cursor: pointer;"
-				title="YouTube"
-			>
-				<img src="youtube_4096116.png" alt="instagram icon" />
-			</a>
-		</div>
-	</div>
+					</div>
+					</div>
+			</section> -->
 
 	<div id="contact-me" class="mb-12"></div>
 
@@ -223,7 +185,7 @@
 	<!-- <img id="winter-park-img" src="winter-park-wide.jpg" alt="winter park" /> -->
 
 	<div id="contact">
-		<div class="contact-form ml-8">
+		<div class="contact-form">
 			<form>
 				<div class="space-y-12">
 					<!-- <div class="border-b border-gray-900/10 pb-2"> -->
@@ -308,13 +270,13 @@
 			</form>
 		</div>
 
-		<div id="contact-me" class="contact-data pl-16">
-			<h2 class="mb-9 text-2xl font-semibold text-blue-900">Brian Altomari</h2>
-			<h4 id="mobile">Mobile: (312) 420-3587</h4>
-			<h4 id="office" class="mb-4">Office: (407) 545-6430</h4>
-			<h4 id="bri-email" class="mb-10">
+		<div id="contact-me" class="contact-data">
+			<h2 class="mb-4 text-4xl font-semibold text-blue-900">Brian Altomari</h2>
+			<h2 class="text-xl" id="mobile">Mobile: (312) 420-3587</h2>
+			<h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4>
+			<h4 class="text-xl mb-6" id="bri-email">
 				<a
-					class="text-gray-500 border-gray-300 hover:text-orange-500"
+					class="text-2xl text-blue-500 border-gray-300 hover:text-orange-500"
 					outline
 					color="dark"
 					href="mailto: brianaltomari@kw.com?subject=My Guy Bri ({clientFirst} {clientLast}) Inquiry"
@@ -322,13 +284,52 @@
 					rel="noopener noreferrer">brianaltomari@kw.com</a
 				>
 			</h4>
-			<h4 id="address-1" class="mb-1 font-semibold text-slate-900">Keller Williams Winter Park</h4>
-			<h4 id="address-2">147 W. Lyman Avenue</h4>
-			<h4 id="address-3">Winter Park, FL 32789</h4>
 
-			<div style="margin-left: -75px; margin-top: 35px;">
-				<img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" />
+			<div class="subscribe mb-12">
+				<div class="subscribe-social mt-0">
+					<a
+						href="https://www.facebook.com/people/Brian-Altomari-Orlando-Realtor/61565822827296/"
+						target="_blank"
+						style="cursor: pointer;"
+						title="Brian's Facebook Page"
+					>
+						<img src="facebook_2504903.png" alt="facebook icon" />
+					</a>
+					<a
+						href="https://www.instagram.com/brianaltomari_realtor/"
+						target="_blank"
+						style="cursor: pointer;"
+						title="Brian on Instagram"
+					>
+						<img src="instagram_2111463.png" alt="instagram icon" />
+					</a>
+					<a
+						href="https://www.linkedin.com/in/brian-altomari-5a719961/"
+						target="_blank"
+						style="cursor: pointer;"
+						title="Brian's LinkedIn Profile"
+					>
+						<img src="linkedin_2504923.png" alt="instagram icon" />
+					</a>
+					<a
+						href="https://www.youtube.com/@brianaltomari_realtor"
+						target="_blank"
+						style="cursor: pointer;"
+						title="Brian's YouTube Channel"
+					>
+						<img src="youtube_4096116.png" alt="instagram icon" />
+					</a>
+				</div>
 			</div>
+
+			<div style="margin: 2rem auto 0 auto;">
+				<!-- <img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" /> -->
+				<img id="kw-logo-img" src="my-guy-bri-kw-logo.jpg" alt="hero kw" />
+			</div>
+			<!-- <h4 id="address-1" class="mb-1 font-semibold text-slate-900">Keller Williams Winter Park</h4> -->
+			<h4 class="text-2xl mt-3 font-semibold" id="address-0">Keller Williams Realty</h4>
+			<h4 class="text-xl mt-2" id="address-2">147 W. Lyman Avenue</h4>
+			<h4 class="text-xl" id="address-3">Winter Park, FL 32789</h4>
 		</div>
 	</div>
 </div>
@@ -336,20 +337,20 @@
 <style>
 	nav {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 3fr;
 		align-items: center;
 	}
 
 	#my-guy-bri-img {
-		width: 125px;
+		width: 100px;
 		border-radius: 15px;
-		margin-left: 1.5rem;
+		margin-left: 1rem;
 	}
 
 	.nav-links {
-		font-size: 1.35rem;
+		font-size: 1rem;
 		display: flex;
-		gap: 1rem;
+		gap: 0.8rem;
 	}
 
 	.nav-links a:hover {
@@ -372,12 +373,13 @@
 	}
 
 	#hero-img {
-		width: 750px;
+		width: 80vw;
 		border-radius: 8px;
-		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2),
-            1px 2px 4px 0px rgba(0, 0, 0, 0.2),
-            2px 4px 8px 0px rgba(0, 0, 0, 0.2),
-            2px 4px 16px 0px rgba(0, 0, 0, 0.2);
+		box-shadow:
+			0px 1px 2px 0px rgba(0, 0, 0, 0.2),
+			1px 2px 4px 0px rgba(0, 0, 0, 0.2),
+			2px 4px 8px 0px rgba(0, 0, 0, 0.2),
+			2px 4px 16px 0px rgba(0, 0, 0, 0.2);
 	}
 
 	button {
@@ -473,18 +475,28 @@
 		gap: 3rem;
 	}
 
-	.row-1 {
+	/* grid-template-columns: 1fr 1fr; */
+	/* .row-1 {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
 		text-align: center;
-		gap: 3rem;
+		gap: 1rem;
+	} */
+
+	.row-1,
+	.row-2 {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		gap: 1rem;
 	}
 
 	.row-2 {
-		display: grid;
+		flex-direction: column-reverse;
+		/* display: grid;
 		grid-template-columns: 1fr 1fr;
 		text-align: center;
-		gap: 3rem;
+		gap: 3rem; */
 	}
 
 	/* .service-image { */
@@ -493,13 +505,14 @@
 	/* } */
 	#service-img,
 	#service-img-2 {
-		width: 400px;
+		width: 100vw;
 		margin: 0 auto;
 		border-radius: 8px;
-		box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2),
-            1px 2px 4px 0px rgba(0, 0, 0, 0.2),
-            2px 4px 8px 0px rgba(0, 0, 0, 0.2),
-            2px 4px 16px 0px rgba(0, 0, 0, 0.2);
+		box-shadow:
+			0px 1px 2px 0px rgba(0, 0, 0, 0.2),
+			1px 2px 4px 0px rgba(0, 0, 0, 0.2),
+			2px 4px 8px 0px rgba(0, 0, 0, 0.2),
+			2px 4px 16px 0px rgba(0, 0, 0, 0.2);
 	}
 
 	/* No shadow */
@@ -512,6 +525,8 @@
 
 	.service-text {
 		background-color: #fff;
+		padding: 0 1rem;
+		/* margin: 10px auto; */
 	}
 
 	/* SUBSCRIBE */
@@ -538,8 +553,9 @@
 
 	#contact {
 		display: flex;
+		flex-direction: column-reverse;
 		gap: 3rem;
-		margin: 15px;
+		margin: 35px;
 	}
 
 	.contact-form {
@@ -547,7 +563,8 @@
 	}
 
 	.contact-data {
-		flex: 110;
+		text-align: center;
+		/* flex: 110; */
 		/* padding-left: 1rem; */
 	}
 
@@ -557,12 +574,98 @@
 	#address-1,
 	#address-2,
 	#address-3 {
-		padding-left: 1rem;
+		/* padding-left: 1rem; */
 	}
 
 	#winter-park-img {
 		/* width: 600px; */
 		margin: 0px auto;
 		border-radius: 8px;
+	}
+
+	@media (min-width: 768px) {
+		nav {
+			grid-template-columns: 1fr 2fr;
+			gap: 2rem;
+		}
+
+		.container {
+			margin: 70px auto;
+		}
+
+		#hero-img {
+			/* width: 100vw; */
+			border-radius: 8px;
+		}
+
+		#brian-img {
+			width: 300px;
+			margin: 0 auto;
+			border-radius: 8px;
+		}
+
+		#service-img,
+		#service-img-2 {
+			width: 70vw;
+			margin: 0 auto;
+			border-radius: 8px;
+		}
+
+		#kw-logo-img {
+			width: 300px;
+			margin: 0 auto;
+			border-radius: 8px;
+		}
+
+		.contact-form {
+			flex: 110;
+		}
+
+		/* .contact-data {
+			flex: 110;
+		} */
+	}
+
+	@media (min-width: 900px) {
+		nav {
+			grid-template-columns: 1fr 2fr;
+			gap: 2rem;
+		}
+
+		.container {
+			margin: 70px auto;
+		}
+
+		#hero-img {
+			width: 70vw;
+			border-radius: 8px;
+		}
+
+		#brian-img {
+			width: 300px;
+			margin: 0 auto;
+			border-radius: 8px;
+		}
+
+		#service-img,
+		#service-img-2 {
+			width: 70vw;
+			margin: 0 auto;
+			border-radius: 8px;
+		}
+
+		#kw-logo-img {
+			width: 300px;
+			margin: 0 auto;
+			border-radius: 8px;
+		}
+
+		.contact-form {
+			flex: 110;
+		}
+
+		/* .contact-data {
+			flex: 110;
+		} */
 	}
 </style>
