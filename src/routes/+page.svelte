@@ -111,7 +111,7 @@
 				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
 			</div>
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl text-blue-800">Real Estate Done Right</h2>
+				<h2 class="mx-8 py-4 text-3xl text-blue-800">Real Estate Done <em>Right</em></h2>
 				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify leading-8 text-gray-500">
 					Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or
 					sell, in the middle of it, or just looking for some answers, our top-notch skills ensure
@@ -140,7 +140,7 @@
 			</div>
 			<div class="service-text">
 				<!-- <h2 class="mx-8 py-4 text-3xl text-blue-800">Rely on KW</h2> -->
-				<div class="service-image pb-4">
+				<div class="service-image mt-4 pb-4">
 					<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
 				</div>
 				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500">
