@@ -361,7 +361,6 @@
 		width: 100%;
 		height: 100vh;
 		margin: 70px auto;
-		/* background-color: whitesmoke; */
 	}
 
 	section {
@@ -384,8 +383,6 @@
 		border-radius: 22px;
 		padding: 20px;
 		width: 12rem;
-		/* border: 1px solid orangered;
-		color: orangered; */
 		border: 1px solid #041e42;
 		color: #041e42;
 		opacity: 0.75;
@@ -393,10 +390,7 @@
 		margin-bottom: 15px;
 	}
 	button:hover {
-		/* background-color: rgba(255, 215, 200, 0.25); */
 		background-color: #041e42;
-		/* border: 1px solid orangered; */
-		/* color: orangered; */
 		color: #fff;
 		opacity: 1;
 	}
@@ -420,14 +414,6 @@
 		width: 50%;
 	}
 
-	/* summary {
-		list-style-position: outside;
-		margin-left: 30px;
-		padding: 10px 10px 10px 20px;
-		border-radius: 5px;
-		list-style-type: '⬇ ';
-		color: #334070;
-	} */
 	summary {
 		display: flex;
 		align-items: center;
@@ -438,7 +424,6 @@
 		content: '';
 		width: 18px;
 		height: 10px;
-		/* background: url('arrow.svg'); */
 		background: url('https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg')
 			no-repeat;
 		background-size: cover;
@@ -461,15 +446,10 @@
 		font-size: 1.2em;
 	}
 
-	/* details[open] > summary {
-		list-style-type: '⬆ ';
-	} */
-
 	/* SERVICES */
 
 	.services {
 		display: grid;
-		/* grid-template-rows: 1fr 1fr; */
 		gap: 3rem;
 	}
 
@@ -487,10 +467,6 @@
 		gap: 3rem;
 	}
 
-	/* .service-image { */
-	/* justify-content: center; */
-	/* background-color: rgb(226, 255, 205); */
-	/* } */
 	#service-img,
 	#service-img-2 {
 		width: 400px;
@@ -530,9 +506,6 @@
 		justify-content: center;
 		gap: 3rem;
 	}
-	/* .subscribe-social a img {
-    flex: 110;
-  } */
 
 	/* CONTACT */
 
@@ -548,7 +521,6 @@
 
 	.contact-data {
 		flex: 110;
-		/* padding-left: 1rem; */
 	}
 
 	#mobile,
