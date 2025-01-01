@@ -68,17 +68,25 @@
 				This has <em>nothing</em> to do with Phil Dunphy (though I am a fan of <em>Modern Family</em>).
 			</li> -->
 			<li>This is my passion; it's my full-time career.</li>
-			<li class="mt-3 text-center">
+			<!-- <li class="mt-3 text-center">
 				<span class="text-xl text-blue-800 font-bold"
 					>I'M ALL IN FOR <em class="text-2xl">YOU</em></span
 				>.
-			</li>
+			</li> -->
 		</ul>
-		<p class="mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
+		<p class="mb-3 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			I know both sides of real estate in Florida, and my personal commitment is to make your life
 			easier. I'll make this process professional and FUN! 🎈
 		</p>
-		<details close style="cursor: pointer;">
+		<p class="mb-4 px-3 text-center">
+			<span class="text-xl text-blue-800 font-bold"
+				>I'm Brian, and I'm ALL IN FOR <em class="text-2xl">YOU!</em></span
+			>
+		</p>
+		<div class="signature flex flex-row justify-end">
+			<img id='brian-signature' src="brian-signature-crop.png" alt="signature">
+		</div>
+		<details close style="cursor: pointer; margin-top: 1.5rem;">
 			<summary><em> More about Brian...</em></summary>
 			<p class="mb-4 mt-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 				My organizational skills are unmatched, and I live by the <a
