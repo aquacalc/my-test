@@ -37,7 +37,7 @@
 			</form>
 		</div>
 
-		<p class="mx-10 mb-0 text-xl text-gray-500">I'm glad you stopped by!</p>
+		<p class="mx-10 mb-0 font-semibold text-2xl text-blue-800"><em>I'm glad you stopped by!</em></p>
 		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
 			There's so much to see here, so take your time, look around, and learn all there is to know
 			about us. We hope you enjoy our site and take a moment to drop us a line.
