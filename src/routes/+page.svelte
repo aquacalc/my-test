@@ -123,7 +123,9 @@
 		<div class="row-2">
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl text-blue-800">Rely on Expertise</h2>
-				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500">
+				<p
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+				>
 					If you have questions about and and all things real estate, trust us to find you what you
 					need fast. We make sure you feel confident and educated every step of the way. We pride
 					ourselves in being your trusted residential real estate resource.
@@ -143,12 +145,16 @@
 				<div class="service-image mt-4 pb-4">
 					<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
 				</div>
-				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500">
+				<p
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+				>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
 					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
 					veritatis ut provident at, est excepturi optio?
 				</p>
-				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500">
+				<p
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+				>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
 					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
 					veritatis ut provident at, est excepturi optio?
@@ -467,7 +473,7 @@
 		list-style-type: '⬆ ';
 	} */
 
-	/* SERVICES */
+	/* -- ** -- SERVICES -- ** -- */
 
 	.services {
 		display: grid;
@@ -570,15 +576,9 @@
 			gap: 2rem;
 		}
 
-		/* .container {
-			margin: 70px auto;
-		} */
-
 		#hero-img {
 			/* width: 100vw; */
-
-			max-width: 430px;
-			/* border-radius: 8px; */
+			max-width: 470px;
 		}
 
 		#brian-img {
@@ -599,10 +599,6 @@
 			margin: 0 auto;
 			border-radius: 8px;
 		}
-
-		/* .contact-form {
-			flex: 110;
-		} */
 	}
 
 	@media screen and (min-width: 900px) {
@@ -626,24 +622,34 @@
 		}
 
 		.services {
-			/* display: grid;
-			gap: 3rem; */
 			margin: 20px;
 		}
 
-		.row-1,
+		/* .row-1,
 		.row-2 {
 			flex-direction: row;
 			align-items: center;
-		}
+		} */
 
-		.row-2 {
+		/* .row-2 {
 			flex-direction: row;
+		} */
+
+		.row-1,
+		.row-2 {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 2rem;
 		}
 
 		#service-img,
 		#service-img-2 {
-			width: 100vw;
+			width: 35vw;
+		}
+
+		.service-text p {
+			/* padding: 0 1rem; */
+			margin: 0px 30px;
 		}
 
 		#kw-logo-img {
