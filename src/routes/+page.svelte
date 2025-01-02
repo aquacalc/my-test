@@ -172,13 +172,13 @@
 				>
 					Your home matters as much to Brian as it does to you, and that's exactly why he chose this
 					career! Waking up every day living by <a
-					class="font-underline text-sky-500 hover:text-sky-700"
-					href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
-					target="_blank"
-					>The Mamba Mentality
-				</a>, there are very few, if any,
-					other real estate professionals who are going to outwork him. His most important customer
-					is every customer, because EVERYONE deserves an elite and memorable experience.
+						class="font-underline text-sky-500 hover:text-sky-700"
+						href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
+						target="_blank"
+						>The Mamba Mentality
+					</a>, there are very few, if any, other real estate professionals who are going to outwork
+					him. His most important customer is every customer, because EVERYONE deserves an elite and
+					memorable experience.
 				</p>
 			</div>
 			<div class="service-image">
@@ -206,8 +206,8 @@
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
-					This is not a side hustle or something cool he saw on TV; this is Brian’s 24/7/365 passion, and
-					he's all in for you.
+					This is not a side hustle or something cool he saw on TV; this is Brian’s 24/7/365
+					passion, and he's all in for you.
 				</p>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
@@ -232,14 +232,23 @@
 
 	<div id="contact">
 		<div id="contact-me" class="contact-data">
-			<div class="mb-0 text-4xl font-semibold" style="color: #041E42; opacity: 0.85; display: flex; align-items: center; justify-content: center;">
-				<h2>Brian Altomari</h2> <img style='width: 60px; padding-top: 3.5px;' src="realtor-logo.jpg" alt="realtor icon" />
+			<div
+				class="mb-0 text-4xl font-semibold"
+				style="color: #041E42; opacity: 0.85; display: flex; align-items: center; justify-content: center;"
+			>
+				<h2>Brian Altomari</h2>
+				<img style="width: 60px; padding-top: 3.5px;" src="realtor-logo.jpg" alt="realtor icon" />
 			</div>
 
-		<!-- <p class="pt-0 mb-6 px-3 text-lg text-center leading-8 text-gray-500">License #: SL3619639</p> -->
+			<!-- <p class="pt-0 mb-6 px-3 text-lg text-center leading-8 text-gray-500">License #: SL3619639</p> -->
 
-			<h2 class="text-xl" id="mobile">Cell: (312) 420-3587</h2>
-			<h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4>
+			<div class="cell-office-grid">
+				<h2 class="text-xl mobile">Cell:</h2>
+				<h2 class="text-xl mobile-num">(312) 420-3587</h2>
+				<h2 class="text-xl mobile">Office:</h2>
+				<h2 class="text-xl mobile-num">(407) 545-6430</h2>
+				<!-- <h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4> -->
+			</div>
 			<h4 class="text-xl mb-6" id="bri-email">
 				<a
 					class="text-2xl text-blue-500 border-gray-300 hover:text-orange-500"
@@ -316,7 +325,7 @@
 
 	<div class="hero-btn block text-center">
 		<form action="https://brianaltomari.kw.com" target="_blank">
-			<button class='glow-on-hover' type="submit">Dream Home Search</button>
+			<button class="glow-on-hover" type="submit">Dream Home Search</button>
 		</form>
 	</div>
 </div>
@@ -382,7 +391,9 @@
 		margin-bottom: 50px;
 
 		/* transition: background-color 2s; */
-		transition: color, background-color 1.5s;
+		transition:
+			color,
+			background-color 1.5s;
 	}
 	button:hover {
 		background-color: #041e42;
@@ -392,7 +403,6 @@
 
 	/* ---------- */
 
-	
 	/* ---------- */
 
 	.my-hr {
@@ -525,6 +535,20 @@
 		margin: 35px;
 	}
 
+	.cell-office-grid {
+		display: grid;
+		grid-template-columns: 1fr 1.7fr;
+		gap: 0.25rem;
+		width: 100%;
+	}
+
+	.cell-office-grid .mobile {
+		justify-self: right;
+	}
+	.cell-office-grid .mobile-num {
+		justify-self: left;
+	}
+
 	.contact-form {
 		/* flex: 110; */
 		margin: 0 auto;
@@ -580,6 +604,10 @@
 			width: 300px;
 			margin: 0 auto;
 			border-radius: 8px;
+		}
+
+		.cell-office-grid {
+			grid-template-columns: 1fr 1.35fr;
 		}
 
 		button {
@@ -648,6 +676,10 @@
 			width: 300px;
 			margin: 0 auto;
 			border-radius: 8px;
+		}
+
+		.cell-office-grid {
+			grid-template-columns: 1fr 1.2fr;
 		}
 	}
 
