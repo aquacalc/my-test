@@ -720,6 +720,7 @@
 		#service-img,
 		#service-img-2 {
 			width: 35vw;
+			margin-top: 25px;
 		}
 
 		.service-text p {
