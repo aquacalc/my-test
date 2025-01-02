@@ -282,6 +282,14 @@
 					>
 						<img src="youtube_4096116.png" alt="instagram icon" />
 					</a>
+					<a
+						href="https://www.google.com/search?q=Brian+Altomari,+Orlando+REALTOR%C2%AE%EF%B8%8F&stick=H4sIAAAAAAAA_-NgU1I1qLCwSDU3NzRKSbIwMkpNM0uzMqgwN0tLNbIwNrMws0iysDQ2WcSq4lSUmZin4JhTkp-bWJSpo-BflJOYl5KvEOTq6BPiH3Ro3fsd_QA83OfSUAAAAA&hl=en&mat=CfMaE2d1-UTYElcBqiIDwlyVr48UqcO5YLcaPeKUGKwRTgA5wPqOmgMAwkZ8VzFOenTV1r6TqtlpA4FQEz1ivEM-ek_9IoBFbvquiRnzfNnHkQqSNn98r2IutaPQQk0cC94&authuser=1"
+						target="_blank"
+						style="cursor: pointer;"
+						title="Brian's Google My Business Page"
+					>
+						<img src="google-my-business-icon.png" alt="google-my-business-icon icon" />
+					</a>
 				</div>
 			</div>
 
