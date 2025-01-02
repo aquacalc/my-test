@@ -90,7 +90,7 @@
 
 	<!-- see: https://www.sitepoint.com/style-html-details-element/ -->
 	<div class="about-brian">
-		<img id="brian-img" src="brian-image-crop.jpg" alt="Brian Altomari" />
+		<img id="brian-img" src="brian-image-new-crop.jpg" alt="Brian Altomari" />
 		<p class="pt-2 mb-0 px-3 text-lg text-center leading-8 text-gray-500">License #: SL3619639</p>
 		<p class="pt-3 mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			<!-- <p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500"> -->
