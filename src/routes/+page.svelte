@@ -116,11 +116,6 @@
 				This has <em>nothing</em> to do with Phil Dunphy (though I am a fan of <em>Modern Family</em>).
 			</li> -->
 			<li>This is my passion; it's my full-time career.</li>
-			<!-- <li class="mt-3 text-center">
-				<span class="text-xl text-blue-800 font-bold"
-					>I'M ALL IN FOR <em class="text-2xl">YOU</em></span
-				>.
-			</li> -->
 		</ul>
 		<p class="mb-3 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			I know both sides of real estate in Florida, and my personal commitment is to make your life
@@ -157,7 +152,7 @@
 
 	<div class="my-hr">
 		<hr class="hr-1" />
-		<h4 class="middle-text">Our Services</h4>
+		<h4 class="middle-text text-xl">Why is Bri your guy?</h4>
 		<hr class="hr-2" />
 	</div>
 
@@ -167,24 +162,26 @@
 				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
 			</div>
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl text-blue-800">Real Estate Done <em>Right</em></h2>
+				<h2 class="mx-8 py-4 text-3xl text-blue-800">I Build Relationships</h2>
 				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify leading-8 text-gray-500">
-					Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or
-					sell, in the middle of it, or just looking for some answers, our top-notch skills ensure
-					you get the best experience possible. It’s what we love to do.
+					With a wildly successful sales background, Brian doesn’t just complete transactions, he
+					builds lifelong relationships. When you need various vendor recommendations down the road,
+					he'll still be by your side to provide continued exceptional customer service and connect
+					you with a list of extraordinary partners to choose from.
 				</p>
 			</div>
 		</div>
 
 		<div class="row-2">
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl text-blue-800">Rely on Expertise</h2>
+				<h2 class="mx-8 py-4 text-3xl text-blue-800">I Outwork Everybody</h2>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
-					If you have questions about and and all things real estate, trust us to find you what you
-					need fast. We make sure you feel confident and educated every step of the way. We pride
-					ourselves in being your trusted residential real estate resource.
+					Your home matters as much to Brian as it does to you, and that's exactly why he chose this
+					career! Waking up everyday living by The Mamba Mentality, there are very few, if any,
+					other real estate professionals who are going to outwork him. His most important customer
+					is every customer, because EVERYONE deserves an elite and memorable experience.
 				</p>
 			</div>
 			<div class="service-image">
@@ -197,24 +194,24 @@
 				<img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" />
 			</div>
 			<div class="service-text">
-				<!-- <h2 class="mx-8 py-4 text-3xl text-blue-800">Rely on KW</h2> -->
-				<div class="service-image mt-4 pb-4">
+				<h2 class="mx-8 py-4 text-3xl text-blue-800">I'm Always Ready</h2>
+				<!-- <div class="service-image mt-4 pb-4">
 					<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
-				</div>
+				</div> -->
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
-					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
-					veritatis ut provident at, est excepturi optio?
+					Baby he’s ready to gooooo!  Experience gained from sitting under the learning trees of the
+					creme de la creme, Brian knows if he’s on time then he’s late.  This is not a side hustle
+					or something cool he saw on TV, this is Brian’s 24/7/365 and he’s all in for you.
 				</p>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem, mollitia aliquam
-					dolorem corrupti id voluptatibus enim quas tempora nulla, corporis ea repellendus
-					veritatis ut provident at, est excepturi optio?
+					And now when someone asks YOU who to use for their real estate needs, you only need to say
+					the 3 magic words…
 				</p>
+				<p style="color: #334070; font-size: 2rem; text-align: center;">My Guy Bri</p>
 			</div>
 		</div>
 	</div>
