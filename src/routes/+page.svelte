@@ -46,8 +46,13 @@
 			<img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
 		</div>
 
+		<div class="service-image mt-4">
+			<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
+		</div>
+
 		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
-			Are you looking for a real estate <span style="color: #334070;">professional</span> who is going to put your needs first?
+			Are you looking for a real estate <span style="color: #334070;">professional</span> who is going
+			to put your needs first?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
@@ -65,10 +70,6 @@
 			<em>Congratulations!</em> You've found <span style="color: #334070;">Brian Altomari</span>,
 			and your search has come to a close.
 		</p>
-
-		<div class="service-image mt-4">
-			<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
-		</div>
 
 		<div id="search-homes" class="mb-0"></div>
 
