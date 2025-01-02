@@ -71,7 +71,9 @@
 			and your search has come to a close.
 		</p>
 
-		<p class="mx-10 mb-0 font-semibold text-2xl"  style="color: #041E42; opacity: 0.85;"><em>I'm glad you stopped by!</em></p>
+		<p class="mx-10 mb-0 font-semibold text-2xl" style="color: #041E42; opacity: 0.85;">
+			<em>I'm glad you stopped by!</em>
+		</p>
 		<!-- <p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
 			There's so much to see here, so take your time, look around, and learn all there is to know
 			about us. We hope you enjoy our site and take a moment to drop us a line.
@@ -148,9 +150,11 @@
 				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
 			</div>
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl"  style="color: #041E42; opacity: 0.85;">I Build Relationships</h2>
+				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
+					I Build Relationships
+				</h2>
 				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify leading-8 text-gray-500">
-					With a wildly successful sales background, Brian doesn’t just complete transactions, he
+					With a wildly successful sales background, Brian doesn’t just complete transactions; he
 					builds lifelong relationships. When you need various vendor recommendations down the road,
 					he'll still be by your side to provide continued exceptional customer service and connect
 					you with a list of extraordinary partners to choose from.
@@ -160,12 +164,19 @@
 
 		<div class="row-2">
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">I Outwork Everybody</h2>
+				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
+					I Outwork Everybody
+				</h2>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
 					Your home matters as much to Brian as it does to you, and that's exactly why he chose this
-					career! Waking up everyday living by The Mamba Mentality, there are very few, if any,
+					career! Waking up every day living by <a
+					class="font-underline text-sky-500 hover:text-sky-700"
+					href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
+					target="_blank"
+					>The Mamba Mentality
+				</a>, there are very few, if any,
 					other real estate professionals who are going to outwork him. His most important customer
 					is every customer, because EVERYONE deserves an elite and memorable experience.
 				</p>
@@ -189,13 +200,13 @@
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
-					Experience gained from sitting under the learning trees of the
-					<em>crème de la crème<em>, Brian knows that if he's on time, then he's late. </em></em>
+					With experience gained from sitting under the learning trees of the
+					<em>crème de la crème</em>, Brian knows that if he's on time, then he's late.
 				</p>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
-					This is not a side hustle or something cool he saw on TV, this is Brian’s 24/7/365, and
+					This is not a side hustle or something cool he saw on TV; this is Brian’s 24/7/365 passion, and
 					he's all in for you.
 				</p>
 				<p
@@ -204,7 +215,7 @@
 					And now when someone asks YOU who to use for their real estate needs, you only need to say
 					the 3 magic words…
 				</p>
-				<p style="color: #334070; font-size: 2.5rem; text-align: center;">My Guy Bri</p>
+				<p style="color: #334070; font-size: 2.5rem; text-align: center;">My Guy Bri!</p>
 			</div>
 		</div>
 	</div>
@@ -221,7 +232,9 @@
 
 	<div id="contact">
 		<div id="contact-me" class="contact-data">
-			<h2 class="mb-4 text-4xl font-semibold" style="color: #041E42; opacity: 0.85;">Brian Altomari</h2>
+			<h2 class="mb-4 text-4xl font-semibold" style="color: #041E42; opacity: 0.85;">
+				Brian Altomari
+			</h2>
 			<h2 class="text-xl" id="mobile">Mobile: (312) 420-3587</h2>
 			<h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4>
 			<h4 class="text-xl mb-6" id="bri-email">
@@ -292,7 +305,7 @@
 
 	<div class="hero-btn block text-center">
 		<form action="https://brianaltomari.kw.com" target="_blank">
-			<button type="submit">Dream Home Search</button>
+			<button class='glow-on-hover' type="submit">Dream Home Search</button>
 		</form>
 	</div>
 </div>
@@ -356,12 +369,20 @@
 		font-weight: 500;
 		font-size: 1.65rem;
 		margin-bottom: 50px;
+
+		/* transition: background-color 2s; */
+		transition: color, background-color 1.5s;
 	}
 	button:hover {
 		background-color: #041e42;
 		color: #fff;
-		opacity: 1;
+		/* opacity: 1; */
 	}
+
+	/* ---------- */
+
+	
+	/* ---------- */
 
 	.my-hr {
 		display: flex;
