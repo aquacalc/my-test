@@ -71,19 +71,6 @@
 			and your search has come to a close.
 		</p>
 
-		<!-- <div id="search-homes" class="mb-0"></div>
-
-		<div class="hero-text text-center">
-			<h2 class=" text-3xl text-red-500 pb-2">Let Me Help You</h2>
-			<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
-		</div>
-
-		<div class="hero-btn">
-			<form action="https://brianaltomari.kw.com" target="_blank">
-				<button type="submit">Dream Home Search</button>
-			</form>
-		</div> -->
-
 		<p class="mx-10 mb-0 font-semibold text-2xl text-blue-800"><em>I'm glad you stopped by!</em></p>
 		<!-- <p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
 			There's so much to see here, so take your time, look around, and learn all there is to know
@@ -128,7 +115,7 @@
 		<div class="signature flex flex-row justify-end">
 			<img id="brian-signature" src="brian-signature-crop.png" alt="signature" />
 		</div>
-		<details close style="cursor: pointer; margin-top: 1.5rem;">
+		<!-- <details close style="cursor: pointer; margin-top: 1.5rem;">
 			<summary><em> More about Brian...</em></summary>
 			<p class="mb-4 mt-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 				My organizational skills are unmatched, and I live by the <a
@@ -144,7 +131,7 @@
 				perferendis! Nesciunt ipsa fugiat ut consectetur explicabo dolores possimus dolor minima
 				molestiae nulla, consequuntur provident eligendi fugit?
 			</p>
-		</details>
+		</details> -->
 	</div>
 
 	<div id="our-services" class="mb-12"></div>
@@ -157,7 +144,7 @@
 
 	<div class="services">
 		<div class="row-1">
-			<div class="service-image ">
+			<div class="service-image">
 				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
 			</div>
 			<div class="service-text">
@@ -225,19 +212,6 @@
 		</div>
 	</div>
 
-	<div id="search-homes" class="mb-0"></div>
-
-	<div class="my-8 hero-text text-center">
-		<h2 class=" text-3xl text-red-500 pb-2">Let Me Help You</h2>
-		<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
-	</div>
-
-	<div class="hero-btn block text-center">
-		<form action="https://brianaltomari.kw.com" target="_blank">
-			<button type="submit">Dream Home Search</button>
-		</form>
-	</div>
-
 	<!-- <h1>Subscribe</h1>
 	
 	<p class="mb-2 text-gray-500">Sign up for real estate news.</p>
@@ -269,10 +243,9 @@
 	<!-- <img id="winter-park-img" src="winter-park-wide.jpg" alt="winter park" /> -->
 
 	<div id="contact">
-		<div class="contact-form">
+		<!-- <div class="contact-form">
 			<form>
 				<div class="space-y-12">
-					<!-- <div class="border-b border-gray-900/10 pb-2"> -->
 					<div>
 						<h2 class="text-2xl font-semibold text-blue-900">Contact Brian</h2>
 
@@ -331,7 +304,6 @@
 						><em>How can I help?</em></label
 					>
 					<p class="mt-0 text-sm/6 text-gray-500">
-						<!-- <em>Please write a few sentences about what you're looking for.</em> -->
 					</p>
 					<div class="mt-2">
 						<textarea
@@ -346,14 +318,12 @@
 				</div>
 
 				<div class="mb-8 mt-4 flex">
-					<!-- Interested? Let's Talk! -->
-					<!-- <button type="button" class="text-sm/6 font-semibold text-gray-900">Cancel</button> -->
 					<button type="submit" style="flex: 110;" class="text-sm font-semibold text-gray-900"
 						>Send</button
 					>
 				</div>
 			</form>
-		</div>
+		</div> -->
 
 		<div id="contact-me" class="contact-data">
 			<h2 class="mb-4 text-4xl font-semibold text-blue-900">Brian Altomari</h2>
@@ -412,10 +382,23 @@
 				<img id="kw-logo-img" src="my-guy-bri-kw-logo.jpg" alt="hero kw" />
 			</div>
 			<!-- <h4 id="address-1" class="mb-1 font-semibold text-slate-900">Keller Williams Winter Park</h4> -->
-			<h4 class="text-2xl mt-3 font-semibold" id="address-0">Keller Williams Realty</h4>
+			<h4 class="text-2xl mt-3 font-semibold" id="address-0">Keller Williams Winter Park</h4>
 			<h4 class="text-xl mt-2" id="address-2">147 W. Lyman Avenue</h4>
 			<h4 class="text-xl" id="address-3">Winter Park, FL 32789</h4>
 		</div>
+	</div>
+
+	<div id="search-homes" class="mb-0"></div>
+
+	<div class="my-8 hero-text text-center">
+		<h2 class=" text-3xl text-red-500 pb-2">Let Me Help You</h2>
+		<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
+	</div>
+
+	<div class="hero-btn block text-center">
+		<form action="https://brianaltomari.kw.com" target="_blank">
+			<button type="submit">Dream Home Search</button>
+		</form>
 	</div>
 </div>
 
@@ -469,14 +452,14 @@
 	button {
 		border-radius: 22px;
 		padding: 20px;
-		width: 12rem;
+		width: 80%;
 		/* border: 1px solid orangered;
 		color: orangered; */
 		border: 1px solid #041e42;
 		color: #041e42;
 		opacity: 0.75;
-		font-size: 1.25rem;
-		margin-bottom: 15px;
+		font-size: 1.75rem;
+		margin-bottom: 50px;
 	}
 	button:hover {
 		background-color: #041e42;
@@ -674,6 +657,10 @@
 			margin: 0 auto;
 			border-radius: 8px;
 		}
+
+		button {
+			width: 50%;
+		}
 	}
 
 	@media screen and (min-width: 900px) {
@@ -698,6 +685,10 @@
 
 		.services {
 			margin: 20px;
+		}
+
+		button {
+			width: 40%;
 		}
 
 		/* .row-1,
