@@ -151,7 +151,7 @@
 			</div>
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
-					I Build Relationships
+					Builds Relationships
 				</h2>
 				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify leading-8 text-gray-500">
 					With a wildly successful sales background, Brian doesn’t just complete transactions; he
@@ -165,7 +165,7 @@
 		<div class="row-2">
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
-					I Outwork Everybody
+					Outworks <em>Everybody</em>
 				</h2>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
@@ -191,7 +191,7 @@
 				<img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" />
 			</div>
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">I'm Always Ready</h2>
+				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">Always Ready</h2>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
