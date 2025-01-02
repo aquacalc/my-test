@@ -14,10 +14,11 @@
 	<a href="/" title="My Guy Bri HOME">
 		<img class="py-1" id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
 	</a>
-	<div class="nav-links text-gray-500 hidden md:flex">
+	<!-- <div class="nav-links text-gray-500 hidden md:flex"> -->
+	<div class="nav-links text-gray-500 ">
 		<a href="#about-me" title="About Brian">Meet Brian</a>
 		<!-- <a href="#search-homes" title="Search properties">Search</a> -->
-		<a href="#our-services" title="My services">Services</a>
+		<!-- <a href="#our-services" title="My services">Services</a> -->
 		<a href="#contact-me" title="Contact Brian">Contact</a>
 	</div>
 	<!-- <div class="md:hidden">
@@ -350,15 +351,19 @@
 	}
 
 	.nav-links {
-		font-size: 1rem;
 		display: flex;
-		/* gap: 0.8rem; */
-		padding-left: 1rem;
+		padding-left: 2rem;
+	}
+	
+	.nav-links a {
+		font-size: 0.85rem;
+		color: #041e42;
+		opacity: 0.5;
 	}
 
 	.nav-links a:hover {
-		color: orangered;
 		cursor: pointer;
+		opacity: 1;
 	}
 
 	section {
@@ -716,10 +721,14 @@
 		width: 100%;
 	}
 
+	/* .nav-links {
+		font-size: 1.75rem;
+	} */
+
 	.nav-links a {
+		font-size: 1.5rem;
 		padding: 10px;
 		text-decoration: none;
-		color: #4a5568;
 	}
 
 	.nav-links a:hover {
