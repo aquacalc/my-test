@@ -85,10 +85,10 @@
 		</div> -->
 
 		<p class="mx-10 mb-0 font-semibold text-2xl text-blue-800"><em>I'm glad you stopped by!</em></p>
-		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
+		<!-- <p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
 			There's so much to see here, so take your time, look around, and learn all there is to know
 			about us. We hope you enjoy our site and take a moment to drop us a line.
-		</p>
+		</p> -->
 	</section>
 
 	<div id="about-me" class="mb-12"></div>
@@ -200,9 +200,19 @@
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
-					Baby he’s ready to gooooo!  Experience gained from sitting under the learning trees of the
-					creme de la creme, Brian knows if he’s on time then he’s late.  This is not a side hustle
-					or something cool he saw on TV, this is Brian’s 24/7/365 and he’s all in for you.
+					Baby, he's ready to gooooo! Brian is always ready to help you with your real estate needs.
+				</p>
+				<p
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+				>
+					Experience gained from sitting under the learning trees of the
+					<em>crème de la crème<em>, Brian knows that if he's on time, then he's late. </em></em>
+				</p>
+				<p
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+				>
+					This is not a side hustle or something cool he saw on TV, this is Brian’s 24/7/365, and
+					he's all in for you.
 				</p>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
