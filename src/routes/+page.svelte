@@ -379,7 +379,7 @@
 
 			<div style="margin: 2rem auto 0 auto;">
 				<!-- <img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" /> -->
-				<img id="kw-logo-img" src="my-guy-bri-kw-logo.jpg" alt="hero kw" />
+				<img id="kw-logo-img" src="ba-kw-logo-border.jpg" alt="hero kw" />
 			</div>
 			<!-- <h4 id="address-1" class="mb-1 font-semibold text-slate-900">Keller Williams Winter Park</h4> -->
 			<h4 class="text-2xl mt-3 font-semibold" id="address-0">Keller Williams Winter Park</h4>
