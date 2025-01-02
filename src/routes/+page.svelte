@@ -232,9 +232,12 @@
 
 	<div id="contact">
 		<div id="contact-me" class="contact-data">
-			<div class="mb-4 text-4xl font-semibold" style="color: #041E42; opacity: 0.85; display: flex; align-items: center; justify-content: center;">
-				<h2>Brian Altomari</h2> <img style='width: 60px;' src="realtor-logo.jpg" alt="realtor icon" />
+			<div class="mb-0 text-4xl font-semibold" style="color: #041E42; opacity: 0.85; display: flex; align-items: center; justify-content: center;">
+				<h2>Brian Altomari</h2> <img style='width: 60px; padding-top: 3.5px;' src="realtor-logo.jpg" alt="realtor icon" />
 			</div>
+
+		<!-- <p class="pt-0 mb-6 px-3 text-lg text-center leading-8 text-gray-500">License #: SL3619639</p> -->
+
 			<h2 class="text-xl" id="mobile">Cell: (312) 420-3587</h2>
 			<h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4>
 			<h4 class="text-xl mb-6" id="bri-email">
