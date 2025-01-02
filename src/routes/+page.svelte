@@ -2,25 +2,73 @@
 	let clientEmail = $state('');
 	let clientFirst = $state('');
 	let clientLast = $state('');
+
+	let menuOpen = $state(false);
+
+	function toggleMenu() {
+		menuOpen = !menuOpen;
+	}
 </script>
 
 <nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0 z-50">
 	<a href="/" title="My Guy Bri HOME">
 		<img class="py-1" id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
 	</a>
-	<div class="nav-links text-gray-500">
-		<!-- <a href="/">Home</a> -->
+	<div class="nav-links text-gray-500 hidden md:flex">
 		<a href="#about-me" title="About Brian">About Brian</a>
 		<a href="#search-homes" title="Search properties">Search</a>
 		<a href="#our-services" title="My services">Services</a>
 		<a href="#contact-me" title="Contact Brian">Contact</a>
 	</div>
+	<div class="md:hidden">
+		<button onclick={toggleMenu} class="hamburger">
+			{#if menuOpen}
+				<span>&#x2715;</span> <!-- X icon -->
+			{:else}
+				<span>&#9776;</span> <!-- Hamburger icon -->
+			{/if}
+		</button>
+	</div>
 </nav>
+
+{#if menuOpen}
+	<div class="mobile-menu bg-gray-100 text-gray-500">
+		<a href="#about-me" title="About Brian" onclick={toggleMenu}>About Brian</a>
+		<a href="#search-homes" title="Search properties" onclick={toggleMenu}>Search</a>
+		<a href="#our-services" title="My services" onclick={toggleMenu}>Services</a>
+		<a href="#contact-me" title="Contact Brian" onclick={toggleMenu}>Contact</a>
+	</div>
+{/if}
 
 <div class="container">
 	<section>
-		<div class="hero-image pt-2">
+		<div class="hero-image pt-2 mb-4">
 			<img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
+		</div>
+
+		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
+			Are you looking for a real estate <span style="color: #334070;">professional</span> who is going
+			to put your needs first?
+		</p>
+
+		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
+			Are you looking for an
+			<span style="color: #334070;">expert</span> who has extensive knowledge of the Greater Orlando
+			market?
+		</p>
+
+		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
+			Are you looking for a <span style="color: #334070;">partner</span> to provide you valuable insight
+			so that you can make the best decisions until the completion of your buying or selling process?
+		</p>
+
+		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
+			<em>Congratulations!</em> You've found <span style="color: #334070;">Brian Altomari</span>,
+			and your search has come to a close.
+		</p>
+
+		<div class="service-image mt-4">
+			<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
 		</div>
 
 		<div id="search-homes" class="mb-0"></div>
@@ -33,7 +81,7 @@
 		<div class="hero-btn">
 			<form action="https://brianaltomari.kw.com" target="_blank">
 				<!-- <button type="submit">Search For Yo/ur New Home Now</button> -->
-				<button type="submit">Search Now</button>
+				<button type="submit">Dream Home Search</button>
 			</form>
 		</div>
 
@@ -48,7 +96,7 @@
 
 	<div class="my-hr">
 		<hr class="hr-1" />
-		<h4 class="middle-text">About Brian</h4>
+		<h4 class="middle-text">Meet Brian</h4>
 		<hr class="hr-2" />
 	</div>
 
@@ -84,7 +132,7 @@
 			>
 		</p>
 		<div class="signature flex flex-row justify-end">
-			<img id='brian-signature' src="brian-signature-crop.png" alt="signature">
+			<img id="brian-signature" src="brian-signature-crop.png" alt="signature" />
 		</div>
 		<details close style="cursor: pointer; margin-top: 1.5rem;">
 			<summary><em> More about Brian...</em></summary>
@@ -665,5 +713,44 @@
 			margin: 0 auto;
 			border-radius: 8px;
 		}
+	}
+
+	/* ------------ */
+	/* ------------ */
+	/* ------------ */
+
+	.hamburger {
+		font-size: 24px;
+		background: none;
+		border: none;
+		cursor: pointer;
+	}
+
+	.mobile-menu {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 60px;
+		left: 0;
+		right: 0;
+		/* background-color: #f7fafc; bg-gray-100 */
+		padding: 1rem;
+	}
+
+	.mobile-menu a {
+		padding: 10px;
+		border-bottom: 1px solid #ccc;
+		text-align: center;
+		width: 100%;
+	}
+
+	.nav-links a {
+		padding: 10px;
+		text-decoration: none;
+		color: #4a5568;
+	}
+
+	.nav-links a:hover {
+		color: #2d3748;
 	}
 </style>
