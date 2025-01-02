@@ -71,7 +71,7 @@
 			and your search has come to a close.
 		</p>
 
-		<p class="mx-10 mb-0 font-semibold text-2xl text-blue-800"><em>I'm glad you stopped by!</em></p>
+		<p class="mx-10 mb-0 font-semibold text-2xl"  style="color: #041E42; opacity: 0.85;"><em>I'm glad you stopped by!</em></p>
 		<!-- <p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
 			There's so much to see here, so take your time, look around, and learn all there is to know
 			about us. We hope you enjoy our site and take a moment to drop us a line.
@@ -89,7 +89,7 @@
 	<!-- see: https://www.sitepoint.com/style-html-details-element/ -->
 	<div class="about-brian">
 		<img id="brian-img" src="brian-image-crop.jpg" alt="Brian Altomari" />
-		<p class="pt-2 mb-0 px-3 text-center leading-8 text-gray-500">License #: SL3619639</p>
+		<p class="pt-2 mb-0 px-3 text-lg text-center leading-8 text-gray-500">License #: SL3619639</p>
 		<p class="pt-3 mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			<!-- <p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500"> -->
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
@@ -108,12 +108,12 @@
 			easier. I'll make this process professional and FUN! 🎈
 		</p>
 		<p class="mb-4 px-3 text-center">
-			<span class="text-xl text-blue-800 font-bold"
+			<span class="text-xl font-bold" style="color: #041E42; opacity: 0.85;"
 				>I'm Brian, and I'm ALL IN FOR <em class="text-2xl">YOU!</em></span
 			>
 		</p>
 		<div class="signature flex flex-row justify-end">
-			<img id="brian-signature" src="brian-signature-crop.png" alt="signature" />
+			<img id="brian-signature" src="brian-altomari-signature-crop.jpg" alt="signature" />
 		</div>
 		<!-- <details close style="cursor: pointer; margin-top: 1.5rem;">
 			<summary><em> More about Brian...</em></summary>
@@ -148,7 +148,7 @@
 				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
 			</div>
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl text-blue-800">I Build Relationships</h2>
+				<h2 class="mx-8 py-4 text-3xl"  style="color: #041E42; opacity: 0.85;">I Build Relationships</h2>
 				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify leading-8 text-gray-500">
 					With a wildly successful sales background, Brian doesn’t just complete transactions, he
 					builds lifelong relationships. When you need various vendor recommendations down the road,
@@ -160,7 +160,7 @@
 
 		<div class="row-2">
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl text-blue-800">I Outwork Everybody</h2>
+				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">I Outwork Everybody</h2>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
@@ -180,10 +180,7 @@
 				<img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" />
 			</div>
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl text-blue-800">I'm Always Ready</h2>
-				<!-- <div class="service-image mt-4 pb-4">
-					<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
-				</div> -->
+				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">I'm Always Ready</h2>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
@@ -212,26 +209,6 @@
 		</div>
 	</div>
 
-	<!-- <h1>Subscribe</h1>
-	
-	<p class="mb-2 text-gray-500">Sign up for real estate news.</p>
-	
-		<section>
-			<div class="sm:col-span-4">
-				<label for="email" class="block text-sm/6 font-medium text-gray-900">Email address</label>
-				<div class="mt-2">
-					<input
-					id="email"
-					name="email"
-					type="email"
-					bind:value={clientEmail}
-					autocomplete="email"
-					class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-					/>
-					</div>
-					</div>
-			</section> -->
-
 	<div id="contact-me" class="mb-12"></div>
 
 	<div class="my-hr">
@@ -243,90 +220,8 @@
 	<!-- <img id="winter-park-img" src="winter-park-wide.jpg" alt="winter park" /> -->
 
 	<div id="contact">
-		<!-- <div class="contact-form">
-			<form>
-				<div class="space-y-12">
-					<div>
-						<h2 class="text-2xl font-semibold text-blue-900">Contact Brian</h2>
-
-						<div class="mt-4 grid grid-cols-1 gap-x-6 gap-y-2 sm:grid-cols-6">
-							<div class="sm:col-span-3">
-								<label for="first-name" class="block text-sm/6 font-medium text-gray-900"
-									>First name</label
-								>
-								<div class="mt-2">
-									<input
-										type="text"
-										name="first-name"
-										id="first-name"
-										autocomplete="given-name"
-										class="w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-									/>
-								</div>
-							</div>
-
-							<div class="sm:col-span-3">
-								<label for="last-name" class="block text-sm/6 font-medium text-gray-900"
-									>Last name</label
-								>
-								<div class="mt-2">
-									<input
-										type="text"
-										name="last-name"
-										id="last-name"
-										autocomplete="family-name"
-										class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-									/>
-								</div>
-							</div>
-
-							<div class="sm:col-span-4">
-								<label for="email" class="block text-sm/6 font-medium text-gray-900"
-									>Email address</label
-								>
-								<div class="mt-2">
-									<input
-										id="email"
-										name="email"
-										type="email"
-										bind:value={clientEmail}
-										autocomplete="email"
-										class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-									/>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-span-full">
-					<label for="about" class="mt-3 block text-sm/6 font-medium text-gray-900"
-						><em>How can I help?</em></label
-					>
-					<p class="mt-0 text-sm/6 text-gray-500">
-					</p>
-					<div class="mt-2">
-						<textarea
-							name="about"
-							id="about"
-							rows="3"
-							placeholder="Please write a few sentences about what you're looking for..."
-							class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-blue-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
-						>
-						</textarea>
-					</div>
-				</div>
-
-				<div class="mb-8 mt-4 flex">
-					<button type="submit" style="flex: 110;" class="text-sm font-semibold text-gray-900"
-						>Send</button
-					>
-				</div>
-			</form>
-		</div> -->
-
 		<div id="contact-me" class="contact-data">
-			<h2 class="mb-4 text-4xl font-semibold text-blue-900">Brian Altomari</h2>
+			<h2 class="mb-4 text-4xl font-semibold" style="color: #041E42; opacity: 0.85;">Brian Altomari</h2>
 			<h2 class="text-xl" id="mobile">Mobile: (312) 420-3587</h2>
 			<h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4>
 			<h4 class="text-xl mb-6" id="bri-email">
@@ -457,8 +352,9 @@
 		color: orangered; */
 		border: 1px solid #041e42;
 		color: #041e42;
-		opacity: 0.75;
-		font-size: 1.75rem;
+		opacity: 0.85;
+		font-weight: 500;
+		font-size: 1.65rem;
 		margin-bottom: 50px;
 	}
 	button:hover {
@@ -526,10 +422,6 @@
 		color: orangered;
 		font-size: 1.2em;
 	}
-
-	/* details[open] > summary {
-		list-style-type: '⬆ ';
-	} */
 
 	/* -- ** -- SERVICES -- ** -- */
 
@@ -660,6 +552,7 @@
 
 		button {
 			width: 50%;
+			font-size: 1.75rem;
 		}
 	}
 
