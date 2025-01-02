@@ -149,7 +149,7 @@
 
 	<div id="our-services" class="mb-12"></div>
 
-	<div class="my-hr">
+	<div class="my-hr mb-6">
 		<hr class="hr-1" />
 		<h4 class="middle-text text-xl">Why is Bri your guy?</h4>
 		<hr class="hr-2" />
@@ -157,7 +157,7 @@
 
 	<div class="services">
 		<div class="row-1">
-			<div class="service-image">
+			<div class="service-image ">
 				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
 			</div>
 			<div class="service-text">
