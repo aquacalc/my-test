@@ -15,30 +15,30 @@
 		<img class="py-1" id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
 	</a>
 	<div class="nav-links text-gray-500 hidden md:flex">
-		<a href="#about-me" title="About Brian">About Brian</a>
-		<a href="#search-homes" title="Search properties">Search</a>
+		<a href="#about-me" title="About Brian">Meet Brian</a>
+		<!-- <a href="#search-homes" title="Search properties">Search</a> -->
 		<a href="#our-services" title="My services">Services</a>
 		<a href="#contact-me" title="Contact Brian">Contact</a>
 	</div>
-	<div class="md:hidden">
+	<!-- <div class="md:hidden">
 		<button onclick={toggleMenu} class="hamburger">
 			{#if menuOpen}
-				<span>&#x2715;</span> <!-- X icon -->
+				<span>&#x2715;</span>
 			{:else}
-				<span>&#9776;</span> <!-- Hamburger icon -->
+				<span>&#9776;</span>
 			{/if}
 		</button>
-	</div>
+	</div> -->
 </nav>
 
-{#if menuOpen}
+<!-- {#if menuOpen}
 	<div class="mobile-menu bg-gray-100 text-gray-500">
 		<a href="#about-me" title="About Brian" onclick={toggleMenu}>About Brian</a>
 		<a href="#search-homes" title="Search properties" onclick={toggleMenu}>Search</a>
 		<a href="#our-services" title="My services" onclick={toggleMenu}>Services</a>
 		<a href="#contact-me" title="Contact Brian" onclick={toggleMenu}>Contact</a>
 	</div>
-{/if}
+{/if} -->
 
 <div class="container">
 	<section>
@@ -46,7 +46,7 @@
 			<img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
 		</div>
 
-		<div class="service-image mt-4">
+		<div class="service-image mt-0">
 			<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
 		</div>
 
@@ -136,7 +136,7 @@
 		</details> -->
 	</div>
 
-	<div id="our-services" class="mb-12"></div>
+	<!-- <div id="our-services" class="mb-0"></div> -->
 
 	<div class="my-hr mb-6">
 		<hr class="hr-1" />
@@ -352,7 +352,8 @@
 	.nav-links {
 		font-size: 1rem;
 		display: flex;
-		gap: 0.8rem;
+		/* gap: 0.8rem; */
+		padding-left: 1rem;
 	}
 
 	.nav-links a:hover {
@@ -497,9 +498,14 @@
 	}
 
 	/* No shadow */
-	#brian-img,
-	#kw-logo-img {
+	#brian-img {
 		width: 400px;
+		margin: 0 auto;
+		border-radius: 8px;
+	}
+
+	#kw-logo-img {
+		width: 320px;
 		margin: 0 auto;
 		border-radius: 8px;
 	}
@@ -601,9 +607,7 @@
 		}
 
 		#kw-logo-img {
-			width: 300px;
-			margin: 0 auto;
-			border-radius: 8px;
+			width: 400px;
 		}
 
 		.cell-office-grid {
