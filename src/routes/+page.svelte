@@ -47,7 +47,7 @@
 		</div>
 
 		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
-			Are you looking for a real estate <span style="color: #334070;">professional</span> who will put your needs first?
+			Are you looking for a real estate <span style="color: #334070;">professional</span> who is going to put your needs first?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
