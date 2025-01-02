@@ -71,7 +71,7 @@
 			and your search has come to a close.
 		</p>
 
-		<div id="search-homes" class="mb-0"></div>
+		<!-- <div id="search-homes" class="mb-0"></div>
 
 		<div class="hero-text text-center">
 			<h2 class=" text-3xl text-red-500 pb-2">Let Me Help You</h2>
@@ -80,10 +80,9 @@
 
 		<div class="hero-btn">
 			<form action="https://brianaltomari.kw.com" target="_blank">
-				<!-- <button type="submit">Search For Yo/ur New Home Now</button> -->
 				<button type="submit">Dream Home Search</button>
 			</form>
-		</div>
+		</div> -->
 
 		<p class="mx-10 mb-0 font-semibold text-2xl text-blue-800"><em>I'm glad you stopped by!</em></p>
 		<p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
@@ -211,9 +210,22 @@
 					And now when someone asks YOU who to use for their real estate needs, you only need to say
 					the 3 magic words…
 				</p>
-				<p style="color: #334070; font-size: 2rem; text-align: center;">My Guy Bri</p>
+				<p style="color: #334070; font-size: 2.5rem; text-align: center;">My Guy Bri</p>
 			</div>
 		</div>
+	</div>
+
+	<div id="search-homes" class="mb-0"></div>
+
+	<div class="my-8 hero-text text-center">
+		<h2 class=" text-3xl text-red-500 pb-2">Let Me Help You</h2>
+		<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
+	</div>
+
+	<div class="hero-btn block text-center">
+		<form action="https://brianaltomari.kw.com" target="_blank">
+			<button type="submit">Dream Home Search</button>
+		</form>
 	</div>
 
 	<!-- <h1>Subscribe</h1>
