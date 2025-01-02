@@ -232,9 +232,9 @@
 
 	<div id="contact">
 		<div id="contact-me" class="contact-data">
-			<h2 class="mb-4 text-4xl font-semibold" style="color: #041E42; opacity: 0.85;">
-				Brian Altomari
-			</h2>
+			<div class="mb-4 text-4xl font-semibold" style="color: #041E42; opacity: 0.85; display: flex; align-items: center; justify-content: center;">
+				<h2>Brian Altomari</h2> <img style='width: 60px;' src="realtor-logo.jpg" alt="realtor icon" />
+			</div>
 			<h2 class="text-xl" id="mobile">Mobile: (312) 420-3587</h2>
 			<h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4>
 			<h4 class="text-xl mb-6" id="bri-email">
