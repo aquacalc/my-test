@@ -581,37 +581,6 @@
 	}
 
 	/* ------------ */
-	/* ------------ */
-	/* ------------ */
-
-	.hamburger {
-		font-size: 24px;
-		background: none;
-		border: none;
-		cursor: pointer;
-	}
-
-	.mobile-menu {
-		display: flex;
-		flex-direction: column;
-		position: absolute;
-		top: 60px;
-		left: 0;
-		right: 0;
-		/* background-color: #f7fafc; bg-gray-100 */
-		padding: 1rem;
-	}
-
-	.mobile-menu a {
-		padding: 10px;
-		border-bottom: 1px solid #ccc;
-		text-align: center;
-		width: 100%;
-	}
-
-	/* .nav-links {
-		font-size: 1.75rem;
-	} */
 
 	.nav-links a {
 		font-size: 1.5rem;
