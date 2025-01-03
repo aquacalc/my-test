@@ -28,23 +28,23 @@
 		</div>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
-			Are you looking for a real estate <span style="color: #334070;">professional</span> who is going
+			Are you looking for a real estate <span style="color: #041E42; font-weight: 500;">professional</span> who is going
 			to put your needs first?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
 			Are you looking for an
-			<span style="color: #334070;">expert</span> who has extensive knowledge of the Greater Orlando
+			<span style="color: #041E42; font-weight: 500;">expert</span> who has extensive knowledge of the Greater Orlando
 			market?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
-			Are you looking for a <span style="color: #334070;">partner</span> to provide you valuable insight
+			Are you looking for a <span style="color: #041E42; font-weight: 500;">partner</span> to provide you valuable insight
 			so that you can make the best decisions until the completion of your buying or selling process?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
-			<em>Congratulations!</em> You've found <span style="color: #334070;">Brian Altomari</span>,
+			<em>Congratulations!</em> You've found <span style=" font-weight: 500; color: #041E42;">Brian Altomari</span>,
 			and your search has come to a close.
 		</p>
 
