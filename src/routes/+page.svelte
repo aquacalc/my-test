@@ -9,7 +9,7 @@
 		<img class="py-1" id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
 	</a>
 	<!-- <div class="nav-links text-gray-500 hidden md:flex"> -->
-	<div class="nav-links text-gray-500 ">
+	<div class="nav-links text-gray-500">
 		<a href="#about-me" title="About Brian">Meet Brian</a>
 		<!-- <a href="#search-homes" title="Search properties">Search</a> -->
 		<!-- <a href="#our-services" title="My services">Services</a> -->
@@ -75,12 +75,12 @@
 			with such an important transaction which is deeply personal to YOU.
 		</p>
 		<ul class="pt-1 mb-4 px-8 md:text-xl lg:mx-28 leading-6 text-gray-500">
-			<li class='pb-3'>This is <em>not</em> a side hustle.</li>
-			<li class='pb-3'>This is <em>not</em> something I'm doing because it looked cool on TV.</li>
+			<li class="pb-3">This is <em>not</em> a side hustle.</li>
+			<li class="pb-3">This is <em>not</em> something I'm doing because it looked cool on TV.</li>
 			<!-- <li>
 				This has <em>nothing</em> to do with Phil Dunphy (though I am a fan of <em>Modern Family</em>).
 			</li> -->
-			<li class='pb-3'>This is my passion; it's my full-time career.</li>
+			<li class="pb-3">This is my passion; it's my full-time career.</li>
 		</ul>
 		<p class="mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			I know both sides of real estate in Florida, and my personal commitment is to make your life
@@ -180,7 +180,7 @@
 		</div>
 	</div>
 
-	<div id="contact-me" class="mb-12"></div>
+	<div id="contact-me" class="mb-0"></div>
 
 	<div class="my-hr">
 		<hr class="hr-1" />
@@ -191,7 +191,7 @@
 	<!-- <img id="winter-park-img" src="winter-park-wide.jpg" alt="winter park" /> -->
 
 	<div id="contact">
-		<div id="contact-me" class="contact-data">
+		<div id="contact-me" class="contact-data ">
 			<div
 				class="mb-0 text-4xl font-semibold"
 				style="color: #041E42; opacity: 0.85; display: flex; align-items: center; justify-content: center;"
@@ -276,10 +276,10 @@
 		</div>
 	</div>
 
-	<div id="search-homes" class="mb-0"></div>
+	<!-- <div id="search-homes" class="mb-0"></div> -->
 
-	<div class="my-8 hero-text text-center">
-		<h2 class=" text-3xl text-red-500 pb-2">Let Me Help You</h2>
+	<div class="mb-4 hero-text text-center">
+		<h2 class="text-3xl text-red-500 pb-2">Let Me Help You</h2>
 		<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
 	</div>
 
@@ -313,7 +313,7 @@
 		display: flex;
 		padding-left: 2rem;
 	}
-	
+
 	.nav-links a {
 		font-size: 0.85rem;
 		color: #041e42;
@@ -346,8 +346,6 @@
 		border-radius: 22px;
 		padding: 20px;
 		width: 80%;
-		/* border: 1px solid orangered;
-		color: orangered; */
 		border: 1px solid #041e42;
 		color: #041e42;
 		opacity: 0.85;
@@ -366,10 +364,6 @@
 		/* opacity: 1; */
 	}
 
-	/* ---------- */
-
-	/* ---------- */
-
 	.my-hr {
 		display: flex;
 		align-items: center;
@@ -387,47 +381,6 @@
 	.about-brian {
 		margin: 0 auto;
 		width: 80%;
-	}
-
-	/* summary {
-		list-style-position: outside;
-		margin-left: 30px;
-		padding: 10px 10px 10px 20px;
-		border-radius: 5px;
-		list-style-type: '⬇ ';
-		color: #334070;
-	} */
-	summary {
-		display: flex;
-		align-items: center;
-		color: #334070;
-	}
-
-	summary::after {
-		content: '';
-		width: 18px;
-		height: 10px;
-		/* background: url('arrow.svg'); */
-		background: url('https://uploads.sitepoint.com/wp-content/uploads/2023/10/1697699669arrow.svg')
-			no-repeat;
-		background-size: cover;
-		margin-left: 0.75em;
-		transition: 0.2s;
-	}
-
-	details[open] > summary::after {
-		transform: rotate(180deg);
-	}
-
-	/* sigh, Safari again */
-
-	summary::-webkit-details-marker {
-		display: none;
-	}
-
-	summary::marker {
-		color: orangered;
-		font-size: 1.2em;
 	}
 
 	/* -- ** -- SERVICES -- ** -- */
@@ -486,10 +439,6 @@
 		display: flex;
 		flex-direction: column;
 	}
-	.subscribe h1 {
-		font-size: 2.5rem;
-		color: orangered;
-	}
 	.subscribe-social {
 		display: flex;
 		justify-content: center;
@@ -502,7 +451,8 @@
 		display: flex;
 		flex-direction: column-reverse;
 		gap: 3rem;
-		margin: 35px;
+		margin: 3px 35px;
+		/* margin-top: 3px; */
 	}
 
 	.cell-office-grid {
@@ -519,30 +469,8 @@
 		justify-self: left;
 	}
 
-	.contact-form {
-		/* flex: 110; */
-		margin: 0 auto;
-	}
-
 	.contact-data {
 		text-align: center;
-		/* flex: 110; */
-		/* padding-left: 1rem; */
-	}
-
-	/* #mobile,
-	#office,
-	#bri-email,
-	#address-1,
-	#address-2,
-	#address-3 { */
-	/* padding-left: 1rem; */
-	/* } */
-
-	#winter-park-img {
-		/* width: 600px; */
-		margin: 0px auto;
-		border-radius: 8px;
 	}
 
 	/* @media screen and (min-width: 768) { */
