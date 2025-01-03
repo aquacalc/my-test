@@ -194,24 +194,24 @@
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">Always Ready</h2>
 				<p
-					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
 					Baby, he's ready to gooooo! Brian is always ready to help you with your real estate needs.
 				</p>
 				<p
-					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
 					With experience gained from sitting under the learning trees of the
 					<em>crème de la crème</em>, Brian knows that if he's on time, then he's late.
 				</p>
 				<p
-					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
 					This is not a side hustle or something cool he saw on TV; this is Brian’s 24/7/365
 					passion, and he's all in for you.
 				</p>
 				<p
-					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
 					And now when someone asks YOU who to use for their real estate needs, you only need to say
 					the 3 magic words…
