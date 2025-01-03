@@ -2,12 +2,6 @@
 	let clientEmail = $state('');
 	let clientFirst = $state('');
 	let clientLast = $state('');
-
-	let menuOpen = $state(false);
-
-	function toggleMenu() {
-		menuOpen = !menuOpen;
-	}
 </script>
 
 <nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0 z-50">
@@ -21,25 +15,7 @@
 		<!-- <a href="#our-services" title="My services">Services</a> -->
 		<a href="#contact-me" title="Contact Brian">Contact</a>
 	</div>
-	<!-- <div class="md:hidden">
-		<button onclick={toggleMenu} class="hamburger">
-			{#if menuOpen}
-				<span>&#x2715;</span>
-			{:else}
-				<span>&#9776;</span>
-			{/if}
-		</button>
-	</div> -->
 </nav>
-
-<!-- {#if menuOpen}
-	<div class="mobile-menu bg-gray-100 text-gray-500">
-		<a href="#about-me" title="About Brian" onclick={toggleMenu}>About Brian</a>
-		<a href="#search-homes" title="Search properties" onclick={toggleMenu}>Search</a>
-		<a href="#our-services" title="My services" onclick={toggleMenu}>Services</a>
-		<a href="#contact-me" title="Contact Brian" onclick={toggleMenu}>Contact</a>
-	</div>
-{/if} -->
 
 <div class="container">
 	<section>
@@ -93,20 +69,20 @@
 	<div class="about-brian">
 		<img id="brian-img" src="brian-image-new-crop.jpg" alt="Brian Altomari" />
 		<p class="pt-2 mb-0 px-3 text-lg text-center leading-8 text-gray-500">License #: SL3619639</p>
-		<p class="pt-3 mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
+		<p class="pt-3 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			<!-- <p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500"> -->
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
 			with such an important transaction which is deeply personal to YOU.
 		</p>
-		<ul class="pt-3 mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
-			<li>This is <em>not</em> a side hustle.</li>
-			<li>This is <em>not</em> something I'm doing because it looked cool on TV.</li>
+		<ul class="pt-1 mb-4 px-8 md:text-xl lg:mx-28 leading-6 text-gray-500">
+			<li class='pb-3'>This is <em>not</em> a side hustle.</li>
+			<li class='pb-3'>This is <em>not</em> something I'm doing because it looked cool on TV.</li>
 			<!-- <li>
 				This has <em>nothing</em> to do with Phil Dunphy (though I am a fan of <em>Modern Family</em>).
 			</li> -->
-			<li>This is my passion; it's my full-time career.</li>
+			<li class='pb-3'>This is my passion; it's my full-time career.</li>
 		</ul>
-		<p class="mb-3 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
+		<p class="mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			I know both sides of real estate in Florida, and my personal commitment is to make your life
 			easier. I'll make this process professional and FUN! 🎈
 		</p>
@@ -118,23 +94,6 @@
 		<div class="signature flex flex-row justify-end">
 			<img id="brian-signature" src="brian-altomari-signature-crop.jpg" alt="signature" />
 		</div>
-		<!-- <details close style="cursor: pointer; margin-top: 1.5rem;">
-			<summary><em> More about Brian...</em></summary>
-			<p class="mb-4 mt-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
-				My organizational skills are unmatched, and I live by the <a
-					class="font-underline text-sky-500 hover:text-sky-700"
-					href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
-					target="_blank"
-					>Mamba Mentality
-				</a>, so you are going to get the absolute best that I have to offer in every step of your
-				transaction each and every day.
-			</p>
-			<p class="mb-4 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia atque quis est quam
-				perferendis! Nesciunt ipsa fugiat ut consectetur explicabo dolores possimus dolor minima
-				molestiae nulla, consequuntur provident eligendi fugit?
-			</p>
-		</details> -->
 	</div>
 
 	<!-- <div id="our-services" class="mb-0"></div> -->
@@ -420,7 +379,7 @@
 	.hr-1,
 	.hr-2 {
 		border: 1px lightgray solid;
-		margin: 20px;
+		margin: 0px;
 		flex: 1 1 0;
 	}
 
@@ -602,6 +561,11 @@
 			width: 300px;
 		}
 
+		ul {
+			padding-left: 32px;
+			padding-right: 32px;
+		}
+
 		#service-img,
 		#service-img-2 {
 			width: 50vw;
@@ -645,6 +609,12 @@
 			width: 300px;
 		}
 
+		ul {
+			padding-left: 30px;
+			padding-right: 30px;
+			margin-bottom: 2px;
+		}
+
 		.services {
 			margin: 20px;
 		}
@@ -652,16 +622,6 @@
 		button {
 			width: 40%;
 		}
-
-		/* .row-1,
-		.row-2 {
-			flex-direction: row;
-			align-items: center;
-		} */
-
-		/* .row-2 {
-			flex-direction: row;
-		} */
 
 		.row-1,
 		.row-2 {
