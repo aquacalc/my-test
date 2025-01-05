@@ -209,7 +209,7 @@
 				<h2 class="text-xl mobile-num">(407) 545-6430</h2>
 				<!-- <h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4> -->
 			</div>
-			<h4 class="text-xl mb-6" id="bri-email">
+			<h4 class="text-xl mb-0" id="bri-email">
 				<a
 					class="text-2xl text-blue-500 border-gray-300 hover:text-orange-500"
 					outline
@@ -219,6 +219,18 @@
 					rel="noopener noreferrer">brianaltomari@kw.com</a
 				>
 			</h4>
+
+			<div class="mt-3 mb-8 flex align-center justify-center italic">
+				<p  style="color: #041E42; opacity: 0.85;" class='self-center px-3 md:text-xl md:mx-0 leading-8'>Book a call with me on Calendly!</p>
+				<a
+					href="https://calendly.com/myguybri"
+					target="_blank"
+					style="cursor: pointer;"
+					title="Schedule a call with Brian"
+				>
+					<img id="calendly-icon" src="calendly.png" alt="calendly icon" />
+				</a>
+			</div>
 
 			<div class="subscribe mb-12">
 				<div class="subscribe-social mt-0">
@@ -265,7 +277,7 @@
 				</div>
 			</div>
 
-			<div style="margin: 2rem auto 0 auto;">
+			<div style="margin: 0 auto;">
 				<!-- <img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" /> -->
 				<img id="kw-logo-img" src="ba-kw-logo-border.jpg" alt="hero kw" />
 			</div>
@@ -278,7 +290,7 @@
 
 	<!-- <div id="search-homes" class="mb-0"></div> -->
 
-	<div class="mb-4 hero-text text-center">
+	<div class="mb-4 mt-6 hero-text text-center">
 		<h2 class="text-3xl text-red-500 pb-2">Let Me Help You</h2>
 		<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
 	</div>
@@ -453,6 +465,11 @@
 		gap: 3rem;
 		margin: 3px 35px;
 		/* margin-top: 3px; */
+	}
+
+	#calendly-icon {
+		margin: 0 auto;
+		width: 60px;
 	}
 
 	.cell-office-grid {
