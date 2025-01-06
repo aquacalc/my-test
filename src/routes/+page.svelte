@@ -285,6 +285,7 @@
 			<h4 class="text-2xl mt-3 font-semibold" id="address-0">Keller Williams Winter Park</h4>
 			<h4 class="text-xl mt-2" id="address-2">147 W. Lyman Avenue</h4>
 			<h4 class="text-xl" id="address-3">Winter Park, FL 32789</h4>
+			<h6 class='italic mt-2'>Each Keller Williams Office is Independently Owned and Operated</h6>
 		</div>
 	</div>
 
