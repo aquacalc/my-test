@@ -28,24 +28,27 @@
 		</div>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
-			Are you looking for a real estate <span style="color: #041E42; font-weight: 500;">professional</span> who is going
-			to put your needs first?
+			Are you looking for a real estate <span style="color: #041E42; font-weight: 500;"
+				>professional</span
+			> who is going to put your needs first?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
 			Are you looking for an
-			<span style="color: #041E42; font-weight: 500;">expert</span> who has extensive knowledge of the Greater Orlando
-			market?
+			<span style="color: #041E42; font-weight: 500;">expert</span> who has extensive knowledge of the
+			Greater Orlando market?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
-			Are you looking for a <span style="color: #041E42; font-weight: 500;">partner</span> to provide you valuable insight
-			so that you can make the best decisions until the completion of your buying or selling process?
+			Are you looking for a <span style="color: #041E42; font-weight: 500;">partner</span> to provide
+			you valuable insight so that you can make the best decisions until the completion of your buying
+			or selling process?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
-			<em>Congratulations!</em> You've found <span style=" font-weight: 500; color: #041E42;">Brian Altomari</span>,
-			and your search has come to a close.
+			<em>Congratulations!</em> You've found
+			<span style=" font-weight: 500; color: #041E42;">Brian Altomari</span>, and your search has
+			come to a close.
 		</p>
 
 		<p class="mx-10 mb-0 font-semibold text-2xl" style="color: #041E42; opacity: 0.85;">
@@ -104,6 +107,48 @@
 		<h4 class="middle-text text-xl">Why is Bri your guy?</h4>
 		<hr class="hr-2" />
 	</div>
+
+	<!-- Embed the YouTube video -->
+	<!-- src="https://youtube.com/embed/NtHXID6Hmf4?si=ohUwtBVxTxtyCDCC&loop=1&playlist=NtHXID6Hmf4" -->
+	<div class="video-container">
+		<legend>
+			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
+				Having trouble selling your home?
+			</p>
+			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
+				Ready to list your home for sale?
+			</p>
+			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
+				Just started thinking about selling your home?
+			</p>
+			<p
+				class="mx-8 mb-2 px-3 text-center md:text-xl md:mx-14 leading-8 text-gray-500"
+				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
+			>
+				I'll let you know in <em
+					style="text-decoration-line: underline;
+  text-decoration-style: wavy;">under 150 seconds</em
+				> why you should reach out to me for help! 😀
+			</p>
+		</legend>
+		<!-- width="675" -->
+		<iframe
+			title="Meet Your Guy Bri"
+			class="my-4 mx-auto md:w-[675px] md:my-8"
+			style="border-radius: 8px;"
+			height="315"
+			src="https://youtube.com/embed/NtHXID6Hmf4?si=ohUwtBVxTxtyCDCC&playlist=NtHXID6Hmf4&rel=0"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+			allowfullscreen
+		></iframe>
+	</div>
+	<p
+		class="mx-8 mt-10 mb-6 px-3 text-center md:text-xl md:mx-14 md:mb-8 leading-8 text-gray-500"
+		style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.55rem;"
+	>
+		Here are some reasons why you should choose Brian as your REALTOR®:
+	</p>
 
 	<div class="services">
 		<div class="row-1">
@@ -192,7 +237,7 @@
 	<!-- <img id="winter-park-img" src="winter-park-wide.jpg" alt="winter park" /> -->
 
 	<div id="contact">
-		<div id="contact-me" class="contact-data ">
+		<div id="contact-me" class="contact-data">
 			<div
 				class="mb-0 text-4xl font-semibold"
 				style="color: #041E42; opacity: 0.85; display: flex; align-items: center; justify-content: center;"
@@ -222,7 +267,12 @@
 			</h4>
 
 			<div class="mt-3 mb-8 flex align-center justify-center italic">
-				<p  style="color: #041E42; opacity: 0.85;" class='self-center px-3 md:text-xl md:mx-0 leading-8'>Book a call with me on Calendly!</p>
+				<p
+					style="color: #041E42; opacity: 0.85;"
+					class="self-center px-3 md:text-xl md:mx-0 leading-8"
+				>
+					Book a call with me on Calendly!
+				</p>
 				<a
 					href="https://calendly.com/myguybri"
 					target="_blank"
@@ -286,7 +336,7 @@
 			<h4 class="text-2xl mt-3 font-semibold" id="address-0">Keller Williams Winter Park</h4>
 			<h4 class="text-xl mt-2" id="address-2">147 W. Lyman Avenue</h4>
 			<h4 class="text-xl" id="address-3">Winter Park, FL 32789</h4>
-			<h6 class='italic mt-2'>Each Keller Williams Office is Independently Owned and Operated</h6>
+			<h6 class="italic mt-2">Each Keller Williams Office is Independently Owned and Operated</h6>
 		</div>
 	</div>
 
