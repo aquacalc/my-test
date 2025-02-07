@@ -586,7 +586,8 @@
 		}
 	}
 
-	@media screen and (min-width: 900px) {
+	@media screen and (min-width: 950px) {
+		/* @media screen and (min-width: 900px) { */
 		/* @media screen and (min-width: 768) { */
 		/* .container {
 			margin: 70px auto;
