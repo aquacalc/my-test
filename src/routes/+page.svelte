@@ -112,8 +112,10 @@
 	<!-- src="https://youtube.com/embed/NtHXID6Hmf4?si=ohUwtBVxTxtyCDCC&loop=1&playlist=NtHXID6Hmf4" -->
 	<div class="video-container">
 		<legend>
-			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
-				Having trouble selling your home?
+			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
+				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
+			>
+				Having trouble <span class="text-orange-600">SELLING</span> your home?
 			</p>
 			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
 				Ready to list your home for sale?
@@ -143,6 +145,51 @@
 			allowfullscreen
 		></iframe>
 	</div>
+
+	<hr class='mb-4' />
+
+	<!-- Brian video #2 -->
+	<!-- Brian video #2 -->
+	<div class="video-container">
+		<legend>
+			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
+				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
+			>
+				Or are you looking to <span class="text-orange-600">BUY</span> Your Dream Home?
+			</p>
+			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
+				Ready to buy your Dream Home?
+			</p>
+			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
+				Just started thinking about your new home?
+			</p>
+			<p
+				class="mx-8 mb-2 px-3 text-center md:text-xl md:mx-14 leading-8 text-gray-500"
+				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
+			>
+				I'll let you know in <em
+					style="text-decoration-line: underline;
+	text-decoration-style: wavy;">under 2 minutes</em
+				> why you should reach out to me for help! 😀
+			</p>
+		</legend>
+
+		<!-- width="336"  -->
+		<!-- referrerpolicy="strict-origin-when-cross-origin"  -->
+		<!-- src="https://www.youtube.com/embed/gEzW_-mk6EQ?si=ohUwtBVxTxtyCDCC&playlist=NtHXID6Hmf4&rel=0" -->
+		<iframe
+			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 2 minutes why I&#39;m Your Guy!  🏠"
+			class="my-4 mx-auto md:w-[675px] md:my-8"
+			style="border-radius: 8px;"
+			src="https://www.youtube.com/embed/gEzW_-mk6EQ?si=ohUwtBVxTxtyCDCC&rel=0"
+			height="315"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
+			allowfullscreen
+		></iframe>
+	</div>
+	
+
 	<p
 		class="mx-8 mt-10 mb-6 px-3 text-center md:text-xl md:mx-14 md:mb-8 leading-8 text-gray-500"
 		style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.55rem;"
