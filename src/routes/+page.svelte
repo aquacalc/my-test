@@ -307,9 +307,9 @@
 					class="text-2xl text-blue-500 border-gray-300 hover:text-orange-500"
 					outline
 					color="dark"
-					href="mailto: brianaltomari@kw.com?subject=My Guy Bri ({clientFirst} {clientLast}) Inquiry"
+					href="mailto: Brian.MyGuyBri@gmail.com?subject=My Guy Bri ({clientFirst} {clientLast}) Inquiry"
 					target="_blank"
-					rel="noopener noreferrer">brianaltomari@kw.com</a
+					rel="noopener noreferrer">Brian.MyGuyBri@gmail.com</a
 				>
 			</h4>
 
@@ -341,7 +341,7 @@
 						<img src="facebook_2504903.png" alt="facebook icon" />
 					</a>
 					<a
-						href="https://www.instagram.com/brianaltomari_realtor/"
+						href="https://www.instagram.com/myguybri_realtor/"
 						target="_blank"
 						style="cursor: pointer;"
 						title="Brian on Instagram"
