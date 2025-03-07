@@ -112,7 +112,8 @@
 	<!-- src="https://youtube.com/embed/NtHXID6Hmf4?si=ohUwtBVxTxtyCDCC&loop=1&playlist=NtHXID6Hmf4" -->
 	<div class="video-container">
 		<legend>
-			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
+			<p
+				class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
 				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
 			>
 				Having trouble <span class="text-orange-600">SELLING</span> your home?
@@ -134,16 +135,17 @@
 			</p>
 		</legend>
 		<!-- width="675" -->
-		 <iframe 
+		<iframe
 			title="Meet Your Guy Bri"
 			class="my-4 mx-auto md:w-[675px] md:my-8"
 			style="border-radius: 8px;"
-			height="315" 
-			src="https://www.youtube.com/embed/eiRD_JTupBk?si=yUwga5PMihI2W5Rv&rel=0" 
-			frameborder="0" 
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-			referrerpolicy="strict-origin-when-cross-origin" 
-			allowfullscreen></iframe>
+			height="315"
+			src="https://www.youtube.com/embed/eiRD_JTupBk?si=yUwga5PMihI2W5Rv&rel=0"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		></iframe>
 
 		<!-- <iframe
 			title="Meet Your Guy Bri"
@@ -157,13 +159,14 @@
 		></iframe> -->
 	</div>
 
-	<hr class='mb-4' />
+	<hr class="mb-4" />
 
 	<!-- Brian video #2 -->
 	<!-- Brian video #2 -->
 	<div class="video-container">
 		<legend>
-			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
+			<p
+				class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
 				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
 			>
 				Or are you looking to <span class="text-orange-600">BUY</span> Your Dream Home?
@@ -199,7 +202,6 @@
 			allowfullscreen
 		></iframe>
 	</div>
-	
 
 	<p
 		class="mx-8 mt-10 mb-6 px-3 text-center md:text-xl md:mx-14 md:mb-8 leading-8 text-gray-500"
