@@ -134,7 +134,18 @@
 			</p>
 		</legend>
 		<!-- width="675" -->
-		<iframe
+		 <iframe 
+			title="Meet Your Guy Bri"
+			class="my-4 mx-auto md:w-[675px] md:my-8"
+			style="border-radius: 8px;"
+			height="315" 
+			src="https://www.youtube.com/embed/eiRD_JTupBk?si=yUwga5PMihI2W5Rv&rel=0" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			referrerpolicy="strict-origin-when-cross-origin" 
+			allowfullscreen></iframe>
+
+		<!-- <iframe
 			title="Meet Your Guy Bri"
 			class="my-4 mx-auto md:w-[675px] md:my-8"
 			style="border-radius: 8px;"
@@ -143,7 +154,7 @@
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
 			allowfullscreen
-		></iframe>
+		></iframe> -->
 	</div>
 
 	<hr class='mb-4' />
