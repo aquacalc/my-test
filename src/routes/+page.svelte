@@ -191,7 +191,20 @@
 		<!-- width="336"  -->
 		<!-- referrerpolicy="strict-origin-when-cross-origin"  -->
 		<!-- src="https://www.youtube.com/embed/gEzW_-mk6EQ?si=ohUwtBVxTxtyCDCC&playlist=NtHXID6Hmf4&rel=0" -->
+
 		<iframe
+			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 2 minutes why I&#39;m Your Guy!  🏠"
+			class="my-4 mx-auto md:w-[675px] md:my-8"
+			style="border-radius: 8px;"
+			src="https://www.youtube.com/embed/IYgUjs-i2ds?si=w5ftTZLsJE11xS1i&rel=0"
+			height="315"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		></iframe>
+
+		<!-- <iframe
 			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 2 minutes why I&#39;m Your Guy!  🏠"
 			class="my-4 mx-auto md:w-[675px] md:my-8"
 			style="border-radius: 8px;"
@@ -200,7 +213,7 @@
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
 			allowfullscreen
-		></iframe>
+		></iframe> -->
 	</div>
 
 	<p
@@ -369,8 +382,9 @@
 					>
 						<img src="linkedin_2504923.png" alt="instagram icon" />
 					</a>
+					
 					<a
-						href="https://www.youtube.com/@brianaltomari_realtor"
+						href="https://www.youtube.com/@MyGuyBri_Realtor"
 						target="_blank"
 						style="cursor: pointer;"
 						title="Brian's YouTube Channel"
