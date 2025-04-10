@@ -399,6 +399,14 @@
 					>
 						<img src="google-my-business-icon.png" alt="google-my-business-icon icon" />
 					</a>
+					<a
+						href="https://www.tiktok.com/@myguybri_realtor"
+						target="_blank"
+						style="cursor: pointer;"
+						title="Brian's TikTok Page"
+					>
+						<img src="social-media-sm.png" alt="tik-tok-icon icon" />
+					</a>
 				</div>
 			</div>
 
