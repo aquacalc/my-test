@@ -183,7 +183,7 @@
 			>
 				I'll let you know in <em
 					style="text-decoration-line: underline;
-	text-decoration-style: wavy;">under 2 minutes</em
+	text-decoration-style: wavy;">under 45 seconds</em
 				> why you should reach out to me for help! 😀
 			</p>
 		</legend>
@@ -192,11 +192,24 @@
 		<!-- referrerpolicy="strict-origin-when-cross-origin"  -->
 		<!-- src="https://www.youtube.com/embed/gEzW_-mk6EQ?si=ohUwtBVxTxtyCDCC&playlist=NtHXID6Hmf4&rel=0" -->
 
-		<iframe
-			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 2 minutes why I&#39;m Your Guy!  🏠"
+		<!-- src="https://www.youtube.com/embed/IYgUjs-i2ds?si=w5ftTZLsJE11xS1i&rel=0" -->
+		<!-- <iframe
+			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 45 seconds why I&#39;m Your Guy!  🏠"
 			class="my-4 mx-auto md:w-[675px] md:my-8"
 			style="border-radius: 8px;"
-			src="https://www.youtube.com/embed/IYgUjs-i2ds?si=w5ftTZLsJE11xS1i&rel=0"
+			src="https://youtu.be/3rwb1-A9FVg?si=9Zbcoah55bBhiE1Z"
+			height="315"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		></iframe> -->
+
+		<iframe
+			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 45 seconds why I&#39;m Your Guy!  🏠"
+			class="my-4 mx-auto md:w-[675px] md:my-8"
+			style="border-radius: 8px;"
+			src="https://www.youtube.com/embed/3rwb1-A9FVg?si=qvdE83FFbEWueUbZ"
 			height="315"
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -226,18 +239,25 @@
 	<div class="services">
 		<div class="row-1">
 			<div class="service-image">
-				<img id="service-img" src="naomi-hebert-MP0bgaS_d1c-unsplash.jpg" alt="hero kitchen" />
+				<img id="service-img-chamber" src="chambers.JPG" alt="Chamber of Commerce logo" />
 			</div>
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
 					Builds Relationships
 				</h2>
 				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify leading-8 text-gray-500">
+					With a proven track record in sales, Brian doesn’t just close deals — he builds lasting
+					relationships. As an active member of multiple Chambers of Commerce, he’s deeply connected
+					within the community. Long after the transaction is complete, Brian remains a trusted
+					resource — ready to deliver exceptional service and connect you with top-tier vendors and
+					partners whenever you need them.
+				</p>
+				<!-- <p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify leading-8 text-gray-500">
 					With a wildly successful sales background, Brian doesn’t just complete transactions; he
 					builds lifelong relationships. When you need various vendor recommendations down the road,
 					he'll still be by your side to provide continued exceptional customer service and connect
 					you with a list of extraordinary partners to choose from.
-				</p>
+				</p> -->
 			</div>
 		</div>
 
@@ -382,7 +402,7 @@
 					>
 						<img src="linkedin_2504923.png" alt="instagram icon" />
 					</a>
-					
+
 					<a
 						href="https://www.youtube.com/@MyGuyBri_Realtor"
 						target="_blank"
@@ -560,6 +580,18 @@
 			2px 4px 16px 0px rgba(0, 0, 0, 0.2);
 	}
 
+	#service-img-chamber {
+		/* width: 80vw; */
+		height: 35vh;
+		margin: 0 auto;
+		border-radius: 8px;
+		box-shadow:
+			0px 1px 2px 0px rgba(0, 0, 0, 0.2),
+			1px 2px 4px 0px rgba(0, 0, 0, 0.2),
+			2px 4px 8px 0px rgba(0, 0, 0, 0.2),
+			2px 4px 16px 0px rgba(0, 0, 0, 0.2);
+	}
+
 	/* No shadow */
 	#brian-img {
 		width: 400px;
@@ -650,6 +682,13 @@
 			width: 50vw;
 		}
 
+		#service-img-chamber {
+			width: 45%;
+			height: 90%;
+			margin-top: 25px;
+			margin-bottom: 50px;
+		}
+
 		.service-text {
 			padding: 0 0rem;
 		}
@@ -713,6 +752,12 @@
 		#service-img,
 		#service-img-2 {
 			width: 35vw;
+			margin-top: 25px;
+		}
+
+		#service-img-chamber {
+			width: 70%;
+			height: 80%;
 			margin-top: 25px;
 		}
 
