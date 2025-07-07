@@ -19,13 +19,17 @@
 
 <div class="container">
 	<section>
-		<div class="hero-image pt-2 mb-4">
+		<!-- <div class="hero-image pt-2 mb-4">
 			<img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
+		</div> -->
+
+		<div class="hero-image pt-2 mb-4">
+			<img id="hero-img" src="my-guy-bri-hero.jpg" alt="hero kitchen" />
 		</div>
 
-		<div class="service-image mt-0">
+		<!-- <div class="service-image mt-0">
 			<img id="kw-logo-img" src="ba-kw-logo-larger-crop.jpg" alt="hero kw" />
-		</div>
+		</div> -->
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
 			Are you looking for a real estate <span style="color: #041E42; font-weight: 500;"
@@ -438,13 +442,13 @@
 			<h4 class="text-2xl mt-3 font-semibold" id="address-0">Keller Williams Winter Park</h4>
 			<h4 class="text-xl mt-2" id="address-2">147 W. Lyman Avenue</h4>
 			<h4 class="text-xl" id="address-3">Winter Park, FL 32789</h4>
-			<h6 class="italic mt-2">Each Keller Williams Office is Independently Owned and Operated</h6>
+			<h6 class="italic mt-2 mb-8">Each Keller Williams Office is Independently Owned and Operated</h6>
 		</div>
 	</div>
 
 	<!-- <div id="search-homes" class="mb-0"></div> -->
 
-	<div class="mb-4 mt-6 hero-text text-center">
+	<!-- <div class="mb-4 mt-6 hero-text text-center">
 		<h2 class="text-3xl text-red-500 pb-2">Let Me Help You</h2>
 		<h2 class=" text-3xl text-red-500">Find Your Florida Dream Home</h2>
 	</div>
@@ -453,7 +457,7 @@
 		<form action="https://brianaltomari.kw.com" target="_blank">
 			<button class="glow-on-hover" type="submit">Dream Home Search</button>
 		</form>
-	</div>
+	</div> -->
 </div>
 
 <style>
