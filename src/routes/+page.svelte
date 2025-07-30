@@ -243,7 +243,7 @@
 	<div class="services">
 		<div class="row-1">
 			<div class="service-image">
-				<img id="service-img-chamber" src="chambers.JPG" alt="Chamber of Commerce logo" />
+				<img id="service-img-chamber" src="infinity-stones.jpg" alt="Chamber of Commerce logo" />
 			</div>
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
