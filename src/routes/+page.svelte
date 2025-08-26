@@ -76,7 +76,9 @@
 	<div class="about-brian">
 		<!-- <img id="brian-img" src="brian-image-new-crop.jpg" alt="Brian Altomari" /> -->
 		<img id="brian-img" src="brian-image-aug-2025.jpeg" alt="Brian Altomari" />
-		<p class="pt-2 mb-0 px-3 text-lg text-center leading-8 text-gray-500">Florida License #: SL3619639</p>
+		<p class="pt-2 mb-0 px-3 text-lg text-center leading-8 text-gray-500">
+			Florida License #: SL3619639
+		</p>
 		<p class="pt-3 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			<!-- <p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500"> -->
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
@@ -285,25 +287,27 @@
 				</p>
 			</div>
 			<div class="service-image">
+				<!-- <img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" /> -->
 				<img id="service-img-2" src="pexels-mikhail-nilov-9400877.jpg" alt="hero kitchen" />
 			</div>
 		</div>
 
 		<div class="row-1">
 			<div class="service-image">
-				<img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" />
+			<img id="service-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
+				<!-- <img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" /> -->
 			</div>
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">Always Ready</h2>
 				<p
 					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
-					Baby, he's ready to gooooo! Brian is always ready to help you with your real estate needs.
+					<em>Baby, he's ready to go!</em> Brian is always ready to help you with your real estate needs.
 				</p>
 				<p
 					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
 				>
-					With experience gained from sitting under the learning trees of the
+					With experience sitting under the learning trees of the
 					<em>crème de la crème</em>, Brian knows that if he's on time, then he's late.
 				</p>
 				<p
@@ -380,7 +384,7 @@
 				</a>
 			</div>
 
-			<div class="subscribe mb-12">
+			<div class="subscribe mb-6">
 				<div class="subscribe-social mt-0">
 					<a
 						href="https://www.facebook.com/people/Brian-Altomari-Orlando-Realtor/61565822827296/"
@@ -434,15 +438,19 @@
 				</div>
 			</div>
 
-			<div style="margin: 0 auto;">
+			<div style="margin: 0 auto; margin-bottom: 8px;">
 				<!-- <img id="kw-logo-img" src="ba-kw-logo-larger.jpg" alt="hero kw" /> -->
-				<img id="kw-logo-img" src="ba-kw-logo-border.jpg" alt="hero kw" />
+				<!-- <img id="kw-logo-img" src="ba-kw-logo-border.jpg" alt="hero kw" /> -->
+				<img id="kw-logo-img" src="eXp-address.jpg" alt="hero kw" />
 			</div>
+
 			<!-- <h4 id="address-1" class="mb-1 font-semibold text-slate-900">Keller Williams Winter Park</h4> -->
-			<h4 class="text-2xl mt-3 font-semibold" id="address-0">Keller Williams Winter Park</h4>
-			<h4 class="text-xl mt-2" id="address-2">147 W. Lyman Avenue</h4>
+			<h4 class="text-3xl mf-3.5 mb-5 font-semibold" id="address-0">eXp Realty LLC</h4>
+			<!-- <h4 class="text-xl mt-2" id="address-2">147 W. Lyman Avenue</h4>
 			<h4 class="text-xl" id="address-3">Winter Park, FL 32789</h4>
-			<h6 class="italic mt-2 mb-8">Each Keller Williams Office is Independently Owned and Operated</h6>
+			<h6 class="italic mt-2 mb-8">Each Keller Williams Office is Independently Owned and Operated</h6> -->
+
+			<hr class="mb-14" />
 		</div>
 	</div>
 
