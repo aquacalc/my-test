@@ -351,9 +351,9 @@
 
 			<div class="cell-office-grid">
 				<h2 class="text-xl mobile">Cell:</h2>
-				<h2 class="text-xl mobile-num">(312) 420-3587</h2>
-				<h2 class="text-xl mobile">Office:</h2>
-				<h2 class="text-xl mobile-num">(407) 545-6430</h2>
+				<h2 class="text-xl mb-2 mobile-num">(312) 420-3587</h2>
+				<!-- <h2 class="text-xl mobile">Office:</h2>
+				<h2 class="text-xl mobile-num">(407) 545-6430</h2> -->
 				<!-- <h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4> -->
 			</div>
 			<h4 class="text-xl mb-0" id="bri-email">
