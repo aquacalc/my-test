@@ -34,29 +34,29 @@
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
 			Are you looking for a real estate <span style="color: #041E42; font-weight: 500;"
 				>professional</span
-			> who is going to put your needs first?
+			>
+			who actually puts <em>your</em> needs first?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
-			Are you looking for an
-			<span style="color: #041E42; font-weight: 500;">expert</span> who has extensive knowledge of the
-			Greater Orlando market?
+			Do you want an
+			<span style="color: #041E42; font-weight: 500;">expert</span> who knows the market inside and out
+			-- and won't let you settle for less?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
-			Are you looking for a <span style="color: #041E42; font-weight: 500;">partner</span> to provide
-			you valuable insight so that you can make the best decisions until the completion of your buying
-			or selling process?
+			Do you need a <span style="color: #041E42; font-weight: 500;">partner</span> who gives you the
+			insight and strategy to make the smartest moves every step of the way?
 		</p>
 
 		<p class="mx-10 md:mx-24 lg:mx-48 text-xl text-gray-500">
-			<em>Congratulations!</em> You've found
-			<span style=" font-weight: 500; color: #041E42;">Brian Altomari</span>, and your search has
-			come to a close.
+			<em>Congratulations!</em> You've found him. I'm
+			<span style=" font-weight: 500; color: #041E42;">Brian Altomari</span>, and I don’t just guide
+			you through the buying or selling process — I dominate it for you.
 		</p>
 
 		<p class="mx-10 mb-0 font-semibold text-2xl" style="color: #041E42; opacity: 0.85;">
-			<em>I'm glad you stopped by!</em>
+			<em>Welcome! I'm glad you stopped by! You're in the right place.</em>
 		</p>
 		<!-- <p class="mx-10 md:mx-24 lg:mx-44 text-xl text-gray-500">
 			There's so much to see here, so take your time, look around, and learn all there is to know
