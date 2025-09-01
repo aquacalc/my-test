@@ -294,7 +294,11 @@
 
 		<div class="row-1">
 			<div class="service-image">
-			<img id="service-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" />
+				<img
+					id="service-img"
+					src="pexels-frans-van-heerden-201846-1438834.jpg"
+					alt="hero kitchen"
+				/>
 				<!-- <img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" /> -->
 			</div>
 			<div class="service-text">
@@ -326,16 +330,16 @@
 			</div>
 		</div>
 
-
-			<div class="service-text">
-				<p
-					class="pb-2 mx-8 mb-1 px-3 md:text-xl md:mx-20 lg:text-2xl text-center leading-8 text-gray-500"
-				>
-					And now, whenever anyone asks <em>YOU</em> who to use for their real estate needs, you can say "I got a guy..."
-				</p>
-				<p style="color: #334070; font-size: 3.0rem; text-align: center;">My Guy Bri!</p>
-			</div>,
-
+		<div class="service-text">
+			<p
+				class="pb-2 mx-8 mb-1 px-3 md:text-xl md:mx-20 lg:text-2xl text-center leading-8 text-gray-500"
+			>
+				And now, whenever anyone asks <em>YOU</em> who to use for their real estate needs, you can say
+				"I got a guy..."
+			</p>
+			<p style="color: #334070; font-size: 3.0rem; text-align: center;">My Guy Bri!</p>
+		</div>
+		,
 	</div>
 
 	<div id="contact-me" class="mb-0"></div>
