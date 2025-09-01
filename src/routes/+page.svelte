@@ -273,49 +273,66 @@
 					Outworks <em>Everybody</em>
 				</h2>
 				<p
-					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
 				>
 					Your home matters as much to Brian as it does to you, and that's exactly why he chose this
-					career! Waking up every day living by <a
+					career!
+				</p>
+				<p
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
+				>
+					Waking up every day living by <a
 						class="font-underline text-sky-500 hover:text-sky-700"
 						href="https://www.forbes.com/councils/forbescoachescouncil/2020/03/10/mamba-mentality-the-mindset-it-takes-to-be-the-best/"
 						target="_blank"
 						>The Mamba Mentality
 					</a>, there are very few, if any, other real estate professionals who are going to outwork
-					him. His most important customer is every customer, because EVERYONE deserves an elite and
+					him.
+				</p>
+				<p
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+				>
+					His most important customer is every customer, because EVERYONE deserves an elite and
 					memorable experience.
 				</p>
 			</div>
 			<div class="service-image">
 				<!-- <img id="hero-img" src="pexels-frans-van-heerden-201846-1438834.jpg" alt="hero kitchen" /> -->
-				<img id="service-img-2" src="pexels-mikhail-nilov-9400877.jpg" alt="hero kitchen" />
+				<!-- <img id="service-img-2" src="pexels-mikhail-nilov-9400877.jpg" alt="hero kitchen" /> -->
+				<img id="service-img-2" src="exp-outside.jpg" alt="hero kitchen" />
 			</div>
 		</div>
 
 		<div class="row-1">
 			<div class="service-image">
-				<img
+				<img id="service-img" src="exp-hat.jpg" alt="hero kitchen" />
+				<!-- <img
 					id="service-img"
 					src="pexels-frans-van-heerden-201846-1438834.jpg"
 					alt="hero kitchen"
-				/>
+				/> -->
 				<!-- <img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" /> -->
 			</div>
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">Always Ready</h2>
 				<p
-					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
 				>
-					<em>Baby, he's ready to go!</em> Brian is always ready to help you with your real estate needs.
+					<em>Baby, he's ready to go!</em>
 				</p>
 				<p
-					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
+				>
+					Brian is always ready to help you with your real estate needs.
+				</p>
+				<p
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
 				>
 					With experience sitting under the learning trees of the
 					<em>crème de la crème</em>, Brian knows that if he's on time, then he's late.
 				</p>
 				<p
-					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
 				>
 					This is not a side hustle or something cool he saw on TV; this is Brian’s 24/7/365
 					passion, and he's all in for you.
