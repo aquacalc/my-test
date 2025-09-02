@@ -251,7 +251,9 @@
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
 					Builds Relationships
 				</h2>
-				<p class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify leading-8 text-gray-500">
+				<p
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify lg:leading-8 leading-8 text-gray-500"
+				>
 					With a proven track record in sales, Brian doesn’t just close deals — he builds lasting
 					relationships. As an active member of multiple Chambers of Commerce, he’s deeply connected
 					within the community. Long after the transaction is complete, Brian remains a trusted
@@ -273,13 +275,13 @@
 					Outworks <em>Everybody</em>
 				</h2>
 				<p
-					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:leading-8 lg:pb-6 text-justify leading-8 text-gray-500"
 				>
 					Your home matters as much to Brian as it does to you, and that's exactly why he chose this
 					career!
 				</p>
 				<p
-					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:leading-8 lg:pb-6 text-justify leading-8 text-gray-500"
 				>
 					Waking up every day living by <a
 						class="font-underline text-sky-500 hover:text-sky-700"
@@ -290,7 +292,7 @@
 					him.
 				</p>
 				<p
-					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl text-justify leading-8 text-gray-500"
+					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:leading-8 text-justify leading-8 text-gray-500"
 				>
 					His most important customer is every customer, because EVERYONE deserves an elite and
 					memorable experience.
@@ -321,18 +323,18 @@
 					<em>Baby, he's ready to go!</em>
 				</p>
 				<p
-					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:leading-8 lg:pb-6 text-justify leading-8 text-gray-500"
 				>
 					Brian is always ready to help you with your real estate needs.
 				</p>
 				<p
-					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:leading-8 lg:pb-6 text-justify leading-8 text-gray-500"
 				>
 					With experience sitting under the learning trees of the
 					<em>crème de la crème</em>, Brian knows that if he's on time, then he's late.
 				</p>
 				<p
-					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
+					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:leading-8 lg:pb-6 text-justify leading-8 text-gray-500"
 				>
 					This is not a side hustle or something cool he saw on TV; this is Brian’s 24/7/365
 					passion, and he's all in for you.
