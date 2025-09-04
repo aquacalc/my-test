@@ -79,26 +79,42 @@
 		<p class="pt-2 mb-0 px-3 text-lg text-center leading-8 text-gray-500">
 			Florida License #: SL3619639
 		</p>
-		<p class="pt-3 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
-			<!-- <p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500"> -->
+		<p class="pt-0 mb-0 px-3 text-lg text-center leading-8 text-gray-500">PA License #: RS379222</p>
+		<!-- <p class="pt-3 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
 			with such an important transaction which is deeply personal to YOU.
 		</p>
 		<ul class="pt-1 mb-4 px-8 md:text-xl lg:mx-28 leading-6 text-gray-500">
 			<li class="pb-3">This is <em>not</em> a side hustle.</li>
 			<li class="pb-3">This is <em>not</em> something I'm doing because it looked cool on TV.</li>
-			<!-- <li>
-				This has <em>nothing</em> to do with Phil Dunphy (though I am a fan of <em>Modern Family</em>).
-			</li> -->
+			
 			<li class="pb-3">This is my passion; it's my full-time career.</li>
 		</ul>
 		<p class="mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			I know both sides of real estate in Florida, and my personal commitment is to make your life
 			easier. I'll make this process professional and FUN! 🎈
+		</p> -->
+
+		 
+
+		<p class="pt-3 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
+			<!-- <p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500"> -->
+			This isn’t a hobby. This isn’t a side hustle. This is my CAREER. I’ll bring you:
 		</p>
+		<ul class="pt-1 mb-6 px-8 md:text-xl lg:mx-28 leading-6 text-gray-500">
+			<li class="pb-3">🔑 Unmatched organization</li>
+			<li class="pb-3">🤝 Negotiation skills and trusted advice </li>
+			<li class="pb-3">🐍 The Mamba Mentality to win every single deal</li>
+		</ul>
+		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
+			⚫️🟡 In addition to Florida, I’m also licensed in Pennsylvania — taking care of
+		family and friends back where it all started. How many REALTORS® do you know who can serve you
+		in multiple states?
+		</p>
+
 		<p class="mb-4 px-3 text-center">
 			<span class="text-xl font-bold" style="color: #041E42; opacity: 0.85;"
-				>I'm Brian, and I'm ALL IN FOR <em class="text-2xl">YOU!</em></span
+				>I'm Brian and I'm ALL IN FOR <em class="text-2xl">YOU!</em></span
 			>
 		</p>
 		<div class="signature flex flex-row justify-end">
@@ -377,8 +393,14 @@
 				class="mb-0 text-4xl font-semibold"
 				style="color: #041E42; opacity: 0.85; display: flex; align-items: center; justify-content: center;"
 			>
-				<h2>Brian Altomari</h2>
-				<img style="width: 60px; padding-top: 3.5px;" src="realtor-logo.jpg" alt="realtor icon" />
+				<h4 class="text-3xl mt-3.5 mb-5 font-semibold" id="address-0">Brian Altomari</h4>
+
+				<img style="width: 70px; padding-top: 3.5px;" src="realtor-logo.jpg" alt="realtor icon" />
+				<img
+					style="width: 43px; padding-top: 0.0px;"
+					src="equal-housing.jpg"
+					alt="equal housing icon"
+				/>
 			</div>
 
 			<!-- <p class="pt-0 mb-6 px-3 text-lg text-center leading-8 text-gray-500">License #: SL3619639</p> -->
@@ -390,6 +412,12 @@
 				<h2 class="text-xl mobile-num">(407) 545-6430</h2> -->
 				<!-- <h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4> -->
 			</div>
+
+			<div class="cell-office-grid">
+				<h2 class="text-xl mobile">PA Office:</h2>
+				<h2 class="text-xl mb-2 mobile-num">(888) 397-7352</h2>
+			</div>
+
 			<h4 class="text-xl mb-0" id="bri-email">
 				<a
 					class="text-2xl text-blue-500 border-gray-300 hover:text-orange-500"
