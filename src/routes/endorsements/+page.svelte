@@ -11,13 +11,13 @@
 	</p>
 
 	<div class="endorse-container">
-		<img src="/endorsements/1.jpg" alt="endorsement #1" />
-		<hr class="my-6" />
-		<img src="/endorsements/2.jpg" alt="endorsement #2" />
+		<img src="/endorsements/4.jpg" alt="endorsement #4" />
 		<hr class="my-6" />
 		<img src="/endorsements/3.jpg" alt="endorsement #3" />
 		<hr class="my-6" />
-		<img src="/endorsements/4.jpg" alt="endorsement #4" />
+		<img src="/endorsements/2.jpg" alt="endorsement #2" />
+		<hr class="my-6" />
+		<img src="/endorsements/1.jpg" alt="endorsement #1" />
 		<hr class="my-6" />
 	</div>
 </div>
