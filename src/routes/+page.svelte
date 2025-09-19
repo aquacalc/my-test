@@ -368,7 +368,7 @@
 			<p
 				class="pb-2 mx-8 mb-1 px-3 md:text-xl md:mx-20 lg:text-2xl text-center leading-8 text-gray-500"
 			>
-				And now, whenever anyone asks <em>YOU</em> who to use for their real estate needs, you can say
+				And now, whenever anyone asks <em>YOU</em> whom to use for their real estate needs, you can say,
 				"I got a guy..."
 			</p>
 			<p style="color: #334070; font-size: 3.0rem; text-align: center;">My Guy Bri!</p>
