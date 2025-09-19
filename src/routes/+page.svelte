@@ -373,10 +373,9 @@
 			</p>
 			<p style="color: #334070; font-size: 3.0rem; text-align: center;">My Guy Bri!</p>
 		</div>
-		,
 	</div>
 
-	<div id="contact-me" class="mb-0"></div>
+	<div id="contact-me" class="mb-0 mt-0"></div>
 
 	<div class="my-hr">
 		<hr class="hr-1" />
