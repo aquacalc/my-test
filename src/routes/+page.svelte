@@ -4,18 +4,19 @@
 	let clientLast = $state('');
 </script>
 
-<nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0 z-50">
+<!-- <div class="nav-links text-gray-500 hidden md:flex"> -->
+<!-- <nav class="mb-10 bg-gray-100 fixed top-0 left-0 right-0 z-50">
 	<a href="/" title="My Guy Bri HOME">
 		<img class="py-1" id="my-guy-bri-img" src="my-guy-bri-logo.jpg" alt="hero kitchen" />
 	</a>
-	<!-- <div class="nav-links text-gray-500 hidden md:flex"> -->
 	<div class="nav-links text-gray-500">
 		<a href="#about-me" title="About Brian">Meet Brian</a>
-		<!-- <a href="#search-homes" title="Search properties">Search</a> -->
-		<!-- <a href="#our-services" title="My services">Services</a> -->
+		<a href="#search-homes" title="Search properties">Search</a> -->
+<!-- <a href="#our-services" title="My services">Services</a>
+		<a href="/endorsements" title="Endorsements">Endorsements</a>
 		<a href="#contact-me" title="Contact Brian">Contact</a>
 	</div>
-</nav>
+</nav> -->
 
 <div class="container">
 	<section>
@@ -95,21 +96,19 @@
 			easier. I'll make this process professional and FUN! 🎈
 		</p> -->
 
-		 
-
 		<p class="pt-3 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			<!-- <p class="mx-8 mb-2 px-3 text-justify leading-8 text-gray-500"> -->
 			This isn’t a hobby. This isn’t a side hustle. This is my CAREER. I’ll bring you:
 		</p>
 		<ul class="pt-1 mb-6 px-8 md:text-xl lg:mx-28 leading-6 text-gray-500">
 			<li class="pb-3">🔑 Unmatched organization</li>
-			<li class="pb-3">🤝 Negotiation skills and trusted advice </li>
+			<li class="pb-3">🤝 Negotiation skills and trusted advice</li>
 			<li class="pb-3">🐍 The Mamba Mentality to win every single deal</li>
 		</ul>
 		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
-			⚫️🟡 In addition to Florida, I’m also licensed in Pennsylvania — taking care of
-		family and friends back where it all started. How many REALTORS® do you know who can serve you
-		in multiple states?
+			⚫️🟡 In addition to Florida, I’m also licensed in Pennsylvania — taking care of family and
+			friends back where it all started. How many REALTORS® do you know who can serve you in
+			multiple states?
 		</p>
 
 		<p class="mb-4 px-3 text-center">
