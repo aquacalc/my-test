@@ -375,7 +375,7 @@
 		</div>
 	</div>
 
-	<div id="contact-me" class="mb-0 mt-0"></div>
+	<!-- <div id="contact-me" class="mb-0 mt-0"></div> -->
 
 	<div class="my-hr">
 		<hr class="hr-1" />
