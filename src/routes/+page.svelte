@@ -137,6 +137,26 @@
 				class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
 				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
 			>
+				Are you <span class="text-orange-600">SELLING</span> your home?
+			</p>
+			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
+				What's killing your sale?
+			</p>
+			<p class="mx-8 mb-2 px-3 text-center md:text-xl md:mx-14 leading-8 text-gray-500">
+				Bad pricing? Bad agent? or <em>BOTH</em>?
+			</p>
+			<p
+				class="mx-8 mb-2 px-3 text-center md:text-xl md:mx-14 leading-8 text-gray-500"
+				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
+			>
+				Don’t settle for excuses! Reach out and <em
+					>let’s get this home <span class="text-orange-600">SOLD</span>!</em
+				>
+			</p>
+			<!-- <p
+				class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
+				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
+			>
 				Having trouble <span class="text-orange-600">SELLING</span> your home?
 			</p>
 			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
@@ -153,10 +173,22 @@
 					style="text-decoration-line: underline;
   text-decoration-style: wavy;">under 150 seconds</em
 				> why you should reach out to me for help! 😀
-			</p>
+			</p> -->
 		</legend>
 		<!-- width="675" -->
 		<iframe
+			title="Selling your home with Your Guy Bri"
+			class="my-4 mx-auto md:w-[675px] md:my-8"
+			style="border-radius: 8px;"
+			height="315"
+			src="https://www.youtube.com/embed/BSs4oS4x6bA?si=tWk6pE8MIxl4kpJE&rel=0"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen
+		></iframe>
+
+		<!-- <iframe
 			title="Meet Your Guy Bri"
 			class="my-4 mx-auto md:w-[675px] md:my-8"
 			style="border-radius: 8px;"
@@ -166,7 +198,7 @@
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 			referrerpolicy="strict-origin-when-cross-origin"
 			allowfullscreen
-		></iframe>
+		></iframe> -->
 
 		<!-- <iframe
 			title="Meet Your Guy Bri"
@@ -230,7 +262,7 @@
 			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 45 seconds why I&#39;m Your Guy!  🏠"
 			class="my-4 mx-auto md:w-[675px] md:my-8"
 			style="border-radius: 8px;"
-			src="https://www.youtube.com/embed/3rwb1-A9FVg?si=qvdE83FFbEWueUbZ"
+			src="https://www.youtube.com/embed/3rwb1-A9FVg?si=qvdE83FFbEWueUbZ&rel=0"
 			height="315"
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
