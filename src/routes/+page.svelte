@@ -187,100 +187,56 @@
 			referrerpolicy="strict-origin-when-cross-origin"
 			allowfullscreen
 		></iframe>
-
-		<!-- <iframe
-			title="Meet Your Guy Bri"
-			class="my-4 mx-auto md:w-[675px] md:my-8"
-			style="border-radius: 8px;"
-			height="315"
-			src="https://www.youtube.com/embed/eiRD_JTupBk?si=yUwga5PMihI2W5Rv&rel=0"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			referrerpolicy="strict-origin-when-cross-origin"
-			allowfullscreen
-		></iframe> -->
-
-		<!-- <iframe
-			title="Meet Your Guy Bri"
-			class="my-4 mx-auto md:w-[675px] md:my-8"
-			style="border-radius: 8px;"
-			height="315"
-			src="https://youtube.com/embed/NtHXID6Hmf4?si=ohUwtBVxTxtyCDCC&playlist=NtHXID6Hmf4&rel=0"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
-			allowfullscreen
-		></iframe> -->
 	</div>
 
-	<hr class="mb-4" />
+	<hr class="my-12" style="border-bottom: 2px solid navy; width: 60%; margin: 32px auto;" />
 
 	<!-- Brian video #2 -->
 	<!-- Brian video #2 -->
 	<div class="video-container">
 		<legend>
-			<p
+			<!-- <p
 				class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
 				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
 			>
 				Or are you looking to <span class="text-orange-600">BUY</span> Your Dream Home?
+			</p> -->
+
+			<p
+				class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500"
+				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
+			>
+				Are you ready to <span class="text-orange-600">BUY</span> your Dream Home?
 			</p>
 			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
-				Ready to buy your Dream Home?
+				Don’t go solo! Work in lockstep with an expert.
 			</p>
+
 			<p class="mx-8 mb-2 px-3 text-center italic md:text-xl md:mx-14 leading-8 text-gray-500">
-				Just started thinking about your new home?
+				In real estate, “good enough” isn’t good enough.
 			</p>
 			<p
 				class="mx-8 mb-2 px-3 text-center md:text-xl md:mx-14 leading-8 text-gray-500"
 				style="color: #041E42; opacity: 0.85; font-weight: 600; font-size: 1.35rem;"
 			>
-				I'll let you know in <em
-					style="text-decoration-line: underline;
-	text-decoration-style: wavy;">under 45 seconds</em
-				> why you should reach out to me for help! 😀
+				Go with a top producer — your future self will thank you.
 			</p>
 		</legend>
-
-		<!-- width="336"  -->
-		<!-- referrerpolicy="strict-origin-when-cross-origin"  -->
-		<!-- src="https://www.youtube.com/embed/gEzW_-mk6EQ?si=ohUwtBVxTxtyCDCC&playlist=NtHXID6Hmf4&rel=0" -->
-
-		<!-- src="https://www.youtube.com/embed/IYgUjs-i2ds?si=w5ftTZLsJE11xS1i&rel=0" -->
-		<!-- <iframe
-			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 45 seconds why I&#39;m Your Guy!  🏠"
-			class="my-4 mx-auto md:w-[675px] md:my-8"
-			style="border-radius: 8px;"
-			src="https://youtu.be/3rwb1-A9FVg?si=9Zbcoah55bBhiE1Z"
-			height="315"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			referrerpolicy="strict-origin-when-cross-origin"
-			allowfullscreen
-		></iframe> -->
 
 		<iframe
 			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 45 seconds why I&#39;m Your Guy!  🏠"
 			class="my-4 mx-auto md:w-[675px] md:my-8"
 			style="border-radius: 8px;"
-			src="https://www.youtube.com/embed/3rwb1-A9FVg?si=qvdE83FFbEWueUbZ&rel=0"
+			src="https://www.youtube.com/embed/p9V2wgIPFeY?si=b-bMh6R4M_PELSAh&rel=0"
 			height="315"
 			frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 			referrerpolicy="strict-origin-when-cross-origin"
 			allowfullscreen
 		></iframe>
-
-		<!-- <iframe
-			title="👀  Or are you looking to buy Your Dream Home?  I&#39;ll Tell You in Under 2 minutes why I&#39;m Your Guy!  🏠"
-			class="my-4 mx-auto md:w-[675px] md:my-8"
-			style="border-radius: 8px;"
-			src="https://www.youtube.com/embed/gEzW_-mk6EQ?si=ohUwtBVxTxtyCDCC&rel=0"
-			height="315"
-			frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
-			allowfullscreen
-		></iframe> -->
 	</div>
+
+	<hr class="my-12" style="border-bottom: 2px solid navy; width: 60%; margin: 32px auto;" />
 
 	<p
 		class="mx-8 mt-10 mb-6 px-3 text-center md:text-xl md:mx-14 md:mb-8 leading-8 text-gray-500"
@@ -296,7 +252,7 @@
 			</div>
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
-					Builds Relationships
+					Brian Builds Relationships
 				</h2>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 text-justify lg:leading-8 leading-8 text-gray-500"
@@ -319,7 +275,7 @@
 		<div class="row-2">
 			<div class="service-text">
 				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
-					Outworks <em>Everybody</em>
+					Brian Outworks <em>Everybody</em>
 				</h2>
 				<p
 					class="mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:leading-8 lg:pb-6 text-justify leading-8 text-gray-500"
@@ -363,7 +319,7 @@
 				<!-- <img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" /> -->
 			</div>
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">Always Ready</h2>
+				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">Brian is <em>Always</em> Ready</h2>
 				<p
 					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
 				>
