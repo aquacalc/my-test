@@ -25,7 +25,7 @@
 		</div> -->
 
 		<div class="hero-image pt-2 mb-4">
-			<img id="hero-img" src="my-guy-bri-hero.jpg" alt="hero kitchen" />
+			<img id="hero-img" src="my-guy-bri-hero.webp" alt="hero kitchen" />
 		</div>
 
 		<!-- <div class="service-image mt-0">
