@@ -80,7 +80,9 @@
 		<p class="pt-2 mb-0 px-3 text-lg text-center leading-8 text-gray-500">
 			Florida License #: SL3619639
 		</p>
-		<p class="pt-0 mb-0 px-3 text-lg text-center leading-8 text-gray-500">IL License #: 475217124</p>
+		<p class="pt-0 mb-0 px-3 text-lg text-center leading-8 text-gray-500">
+			IL License #: 475217124
+		</p>
 		<p class="pt-0 mb-0 px-3 text-lg text-center leading-8 text-gray-500">PA License #: RS379222</p>
 		<!-- <p class="pt-3 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
@@ -107,9 +109,15 @@
 			<li class="pb-3">🐍 The Mamba Mentality to win every single deal</li>
 		</ul>
 		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
-			⚫️🟡 In addition to Florida, I’m also licensed in Pennsylvania — taking care of family and
-			friends back where it all started. How many REALTORS® do you know who can serve you in
-			multiple states?
+			⚫️🟡 I’m also licensed in my home state of Pennsylvania — taking care of friends and family
+			back where it all started.
+		</p>
+		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
+			⚫️🔴🔵⚪️ In addition, I’m licensed in Illinois, where I spent eight unforgettable years
+			living in Chicago.
+		</p>
+		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
+			💥 How many REALTORS® do you know who can serve you in multiple states?
 		</p>
 
 		<p class="mb-4 px-3 text-center">
@@ -320,7 +328,9 @@
 				<!-- <img id="service-img" src="kw-outside-crop.jpg" alt="hero kw" /> -->
 			</div>
 			<div class="service-text">
-				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">Brian is <em>Always</em> Ready</h2>
+				<h2 class="mx-8 py-4 text-3xl" style="color: #041E42; opacity: 0.85;">
+					Brian is <em>Always</em> Ready
+				</h2>
 				<p
 					class="pb-2 mx-8 mb-2 px-3 md:text-xl md:mx-20 lg:text-xl lg:pb-6 text-justify leading-8 text-gray-500"
 				>
