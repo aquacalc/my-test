@@ -113,7 +113,7 @@
 			back where it all started.
 		</p>
 		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
-			⚫️🔴🔵⚪️ In addition, I’m licensed in Illinois, where I spent eight unforgettable years
+			🔴🔵⚪️ In addition, I’m licensed in Illinois, where I spent eight unforgettable years
 			living in Chicago.
 		</p>
 		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
