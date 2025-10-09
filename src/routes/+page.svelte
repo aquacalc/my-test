@@ -80,6 +80,7 @@
 		<p class="pt-2 mb-0 px-3 text-lg text-center leading-8 text-gray-500">
 			Florida License #: SL3619639
 		</p>
+		<p class="pt-0 mb-0 px-3 text-lg text-center leading-8 text-gray-500">IL License #: 475217124</p>
 		<p class="pt-0 mb-0 px-3 text-lg text-center leading-8 text-gray-500">PA License #: RS379222</p>
 		<!-- <p class="pt-3 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
