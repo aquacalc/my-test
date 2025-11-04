@@ -83,6 +83,9 @@
 		<p class="pt-0 mb-0 px-3 text-lg text-center leading-8 text-gray-500">
 			IL License #: 475217124
 		</p>
+		<p class="pt-0 mb-0 px-3 text-lg text-center leading-8 text-gray-500">
+			NY License #: 10401399526
+		</p>
 		<p class="pt-0 mb-0 px-3 text-lg text-center leading-8 text-gray-500">PA License #: RS379222</p>
 		<!-- <p class="pt-3 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			It's key that you get to know who I am as a person, and why I'm the best REALTOR® to help you
@@ -108,14 +111,32 @@
 			<li class="pb-3">🤝 Negotiation skills and trusted advice</li>
 			<li class="pb-3">🐍 The Mamba Mentality to win every single deal</li>
 		</ul>
+
+		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
+			I'm a ⭐️Multi-Million Dollar Producer⭐️ licensed in 4 States:
+		</p>
+		<ul class="pt-1 mb-6 px-8 md:text-xl lg:mx-28 leading-6 text-gray-500">
+			<li class="pb-3">🍊 Florida, my home base</li>
+			<li class="pb-3">🎡 Illinois, where I spent eight unforgettable years in Chicago</li>
+			<li class="pb-3">🗽 New York, serving the NY to FL pipeline</li>
+			<li class="pb-3">
+				⚫️🟡 Pennsylvania, taking care of friends & family where I started
+			</li>
+		</ul>
+
+		<!-- 🎡 Illinois = where I spent eight unforgettable years living in Chicago. 🗽 New York = serving
+		the NY to FL pipeline ⚫️🟡 Pennsylvania = taking care of friends and family back where it all
+		started.
+
 		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			⚫️🟡 I’m also licensed in my home state of Pennsylvania — taking care of friends and family
 			back where it all started.
 		</p>
 		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
-			🔴🔵⚪️ In addition, I’m licensed in Illinois, where I spent eight unforgettable years
-			living in Chicago.
-		</p>
+			🔴🔵⚪️ In addition, I’m licensed in Illinois, where I spent eight unforgettable years living
+			in Chicago.
+		</p> -->
+
 		<p class="mt-4 mb-2 px-3 md:text-xl lg:mx-28 text-justify leading-8 text-gray-500">
 			💥 How many REALTORS® do you know who can serve you in multiple states?
 		</p>
@@ -374,7 +395,7 @@
 		</div>
 	</div>
 
-	<!-- <div id="contact-me" class="mb-0 mt-0"></div> -->
+	<div id="contact-me" class="mb-0 mt-0"></div>
 
 	<div class="my-hr">
 		<hr class="hr-1" />
@@ -385,7 +406,7 @@
 	<!-- <img id="winter-park-img" src="winter-park-wide.jpg" alt="winter park" /> -->
 
 	<div id="contact">
-		<div id="contact-me" class="contact-data">
+		<div class="contact-data">
 			<div
 				class="mb-0 text-4xl font-semibold"
 				style="color: #041E42; opacity: 0.85; display: flex; align-items: center; justify-content: center;"
@@ -403,19 +424,28 @@
 			<!-- <p class="pt-0 mb-6 px-3 text-lg text-center leading-8 text-gray-500">License #: SL3619639</p> -->
 
 			<div class="cell-office-grid">
-				<h2 class="text-xl mobile">Cell:</h2>
+				<h2 class="text-xl font-semibold mobile">Cell:</h2>
 				<h2 class="text-xl mb-2 mobile-num">(312) 420-3587</h2>
 				<!-- <h2 class="text-xl mobile">Office:</h2>
 				<h2 class="text-xl mobile-num">(407) 545-6430</h2> -->
 				<!-- <h4 class="text-xl mb-4" id="office">Office: (407) 545-6430</h4> -->
 			</div>
 
-			<div class="cell-office-grid">
-				<h2 class="text-xl mobile">PA Office:</h2>
+			<div class="cell-office-grid mt-4">
+				<h2 class="text-xl font-semibold mobile">PA Office:</h2>
 				<h2 class="text-xl mb-2 mobile-num">(888) 397-7352</h2>
 			</div>
 
-			<h4 class="text-xl mb-0" id="bri-email">
+			<div class="cell-office-grid mt-4">
+				<h2 class="text-xl font-semibold mobile">NY Office:</h2>
+				<h2 class="text-xl mb-2 mobile-num">(888) 276-0630</h2>
+				</div>
+			<div class="ny-office-grid mt-0">
+				<h2 class="text-xl mb-2 mobile-num">104 West 40th Street, 4th Floor</h2>
+				<h2 class="text-xl mb-2 mobile-num">New York, NY 10018</h2>
+			</div>
+
+			<h4 class="text-xl mt-5 mb-0" id="bri-email">
 				<a
 					class="text-2xl text-blue-500 border-gray-300 hover:text-orange-500"
 					outline
