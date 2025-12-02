@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://brianaltomari.exprealty.com/index.php",
+      "permanent": true
+    }
+  ]
+}
